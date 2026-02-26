@@ -1,0 +1,322 @@
+/* ==================== nav_menu.css ==================== */
+/* Style de la navigation — Head Spa Lyon By F.           */
+/* Polices : Cormorant Garamond (logo) + Raleway (liens)  */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Raleway:wght@300;400&display=swap');
+
+/* ---- Variables (identiques à index.php) ---- */
+:root {
+    --primary:      #C97A93;
+    --primary-dark: #b5607c;
+    --accent:       #5a3a2e;
+    --bg:           #FAF7F2;
+    --nav-height:   80px;
+}
+
+/* ---- Reset de base ---- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+a { text-decoration: none; color: inherit; }
+
+/* ==================== BARRE DE NAV ==================== */
+.main-nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 500;
+    height: var(--nav-height);
+    background: rgba(250, 247, 242, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(90, 58, 46, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Quand la nav est sur le hero (transparente) :
+   dans index.php la nav est position: absolute donc ce style
+   ne s'applique que sur les pages internes où elle est fixed */
+
+.nav-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+/* ==================== LOGO ==================== */
+.nav-logo img {
+    height: 55px;
+    width: auto;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.nav-logo:hover img {
+    transform: scale(1.04);
+}
+
+/* ==================== LIENS DE NAV (centre) ==================== */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-menu > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 4px 0;
+    position: relative;
+}
+
+/* Trait fin sous le lien au survol */
+.nav-menu > li > a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; left: 0;
+    width: 0; height: 1px;
+    background: var(--primary);
+    transition: width 0.3s ease;
+}
+
+.nav-menu > li > a:hover { color: var(--accent); }
+.nav-menu > li > a:hover::after { width: 100%; }
+
+/* ==================== MENU DÉROULANT ==================== */
+.menu-deroulant {
+    position: relative;
+}
+
+/* Flèche discrète */
+.menu-deroulant > a::before {
+    content: '▾';
+    margin-left: 4px;
+    font-size: 9px;
+    opacity: 0.5;
+}
+
+.sous-menu {
+    display: none;
+    position: absolute;
+    top: 100%;           /* collé directement sous le lien */
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg);
+    list-style: none;
+    padding: 20px 0 12px; /* 20px en haut = comble l'espace visuellement */
+    border-radius: 10px;
+    min-width: 210px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(90, 58, 46, 0.08);
+
+    /* Le sous-menu commence dès top:100% donc il n'y a plus de vide */
+    /* Le padding-top de 20px repousse le contenu vers le bas visuellement */
+    margin-top: 0;
+}
+
+/* Petit triangle au-dessus du sous-menu */
+.sous-menu::before {
+    content: '';
+    position: absolute;
+    top: 8px; left: 50%;
+    transform: translateX(-50%);
+    width: 12px; height: 12px;
+    background: var(--bg);
+    border-left: 1px solid rgba(90, 58, 46, 0.08);
+    border-top: 1px solid rgba(90, 58, 46, 0.08);
+    rotate: 45deg;
+}
+
+.sous-menu li a {
+    display: block;
+    padding: 10px 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: #444;
+    transition: all 0.2s ease;
+}
+
+.sous-menu li a:hover {
+    color: var(--primary);
+    padding-left: 28px;
+    background: rgba(201, 122, 147, 0.05);
+}
+
+/* S'ouvre au survol sur desktop */
+.menu-deroulant:hover .sous-menu {
+    display: block;
+}
+
+/* ==================== DROITE : Instagram + Réserver + Burger ==================== */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Lien Instagram */
+.nav-instagram {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.nav-instagram img {
+    height: 20px;
+    width: auto;
+    display: block;
+}
+
+.nav-instagram:hover { color: var(--primary); }
+
+/* Bouton Réserver */
+.nav-btn-reserver {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--primary);
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: background 0.3s, transform 0.3s;
+    white-space: nowrap;
+}
+
+.nav-btn-reserver:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+/* ==================== BURGER (mobile) ==================== */
+.burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    width: 32px;
+}
+
+.burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* ==================== OVERLAY MENU MOBILE ==================== */
+.nav-mobile-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(46, 27, 1, 0.97);
+    z-index: 600;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.nav-mobile-overlay.open {
+    display: flex;
+}
+
+.nav-mobile-overlay ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-mobile-overlay ul li {
+    margin: 10px 0;
+}
+
+.nav-mobile-overlay ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s;
+    display: block;
+    padding: 8px 0;
+}
+
+.nav-mobile-overlay ul li a:hover {
+    color: #fff;
+}
+
+/* Sous-liens prestations en mobile : légèrement en retrait */
+.sous-menu-mobile a {
+    font-size: 11px !important;
+    letter-spacing: 0.12em !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+    padding: 5px 0 !important;
+}
+
+.sous-menu-mobile a:hover {
+    color: var(--primary) !important;
+}
+
+/* Bouton fermer le menu mobile */
+.nav-mobile-close {
+    position: absolute;
+    top: 24px; right: 28px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s;
+}
+
+.nav-mobile-close:hover { color: #fff; }
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .nav-instagram span { display: none; }
+    .nav-menu { gap: 24px; }
+}
+
+@media (max-width: 768px) {
+    .nav-menu        { display: none; }
+    .nav-instagram   { display: none; }
+    .nav-btn-reserver { display: none; }
+    .burger          { display: flex; }
+
+    .nav-container { padding: 0 20px; }
+
+    .nav-logo img { height: 46px; }
+}
+
+@media (max-width: 480px) {
+    .nav-logo img { height: 40px; }
+}
+
+/* ==================== DÉCALAGE BODY (pour éviter que le contenu passe sous la nav) ==================== */
+/* Ajoute cette règle dans chaque page qui utilise la nav FIXE (pas index.php) :
+   body { padding-top: var(--nav-height); }
+*/
