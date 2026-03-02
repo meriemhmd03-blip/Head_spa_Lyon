@@ -169,7 +169,7 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
 .hero {
     height: 100vh; /*Hauteur = 100% de la hauteur de la fenêtre (vh = viewport height). La bannière prend tout l'écran.*/
     min-height: 600px;/*Mais jamais moins de 600px (pour les très petits écrans en hauteur)*/
-    background-image: url('images/test.png');
+    background-image: url('images/piece.jpg');
     background-size: cover; /*l'image remplit tout le conteneur sans être déformée (elle peut être légèrement recadrée)*/
     background-position: center;
     position: relative; /*Nécessaire pour que les enfants en position: absolute se positionnent par rapport à .hero*/
@@ -936,8 +936,11 @@ footer {
         <span class="hero-eyebrow">Institut de soin — Villeurbanne, Lyon</span>
         <h1>Head Spa Lyon<br><em>By F.</em></h1>
         <p class="hero-sub">Un art du soin inspiré de l'Asie</p>
-        <a href="https://www.planity.com/nd-beauty-concept-69100-villeurbanne" class="btn" target="_blank">Réservez un soin</a>
+        <a href="https://www.planity.com/nd-beauty-concept-69100-villeurbanne" class="btn" 
+            target="_blank">Réservez un soin
+        </a>
     </div>
+
     <div class="hero-scroll">
         <span>Découvrir</span>
         <i class="fa-solid fa-chevron-down"></i>

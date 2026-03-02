@@ -1,19 +1,32 @@
 <?php
-require 'config.php';
+require 'config.php'; //instruction PHP qui oblige le chargement du fichier config.php
 
 $sql = "SELECT 
-            prestations.nom_categorie AS categorie, 
+            prestations.nom_categorie AS categorie, /*demande de la colonne nom_categorie de la table prestations, on donne l'alias categorie à cette colonne*/
             sous_prestation.nom, 
             sous_prestation.description, 
             sous_prestation.duree, 
             sous_prestation.prix 
-        FROM sous_prestation
-        INNER JOIN prestations ON sous_prestation.presta_id = prestations.IdPresta
+        FROM sous_prestation 
+        /*indique la table principale de la requête, où sont stockés les soins individuels*/
+        INNER JOIN prestations ON sous_prestation.presta_id = prestations.IdPresta 
+        /*INNER JOIN= jointure interne, on relie 2 tables pour combiner leurs données*/ 
+        /*prestations = la deuxieme table à joindre (contient les catégories)*/
+        /*ON introduit la condition de liaison entre les 2 tables*/ 
+        /*sous_prestation.presta_id = prestations.IdPresta : la condition exacte :
+        • presta_id (dans sous_prestation) est une clé étrangère
+        • IdPresta (dans prestations) est la clé primaire
+        • On ne garde que les lignes où ces deux valeurs sont égales. */
         ORDER BY prestations.IdPresta";
+        /*ORDER BY = mot clé SQL pour trier les résultats
+        on trie par l'ID de la catégorie (pour grouper les soins par catégorie).
+        */
 
-$stmt = $pdo->query($sql);
-$services = $stmt->fetchAll();
+$stmt = $pdo->query($sql); /*Cette ligne exécute la requête SQL stocké dans $sql via la connexion à la BDD ($pdo) et place de résultat dans la variable $stmt pour qu'on puisse lire ensuite */
+$services = $stmt->fetchAll(); /*$services : nouvelle variable qui va contenir toutes les lignes récupérées / méthode qui récupère tous les résultats de la requête sous forme de tableau associatif*/
 ?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -463,18 +476,20 @@ footer {
 </div>
 
 <!-- ========== TARIFS (depuis la BDD) ========== -->
-<?php if (!empty($services)): ?>
+<?php if (!empty($services)): ?> <!--vérifie que le tableau $services n'est pas vide -->
 
 <div class="tarifs-container">
 
 <?php
-$currentCategorie = null;
-foreach ($services as $ligne):
-    if ($currentCategorie !== $ligne['categorie']):
+$currentCategorie = null; //initialise une variable pour suivre la catégorie en cours / null = valeur "vide" en PHP
+foreach ($services as $ligne): //boucle qui parcourt chaque éléments de tableau $services contenant tous les résultats de la BDD , as $ligne = à chaque tour, l'élément courant est copié dans $ligne
+        // : -> début du bloc HTML à répéter pour chaque ligne   
+    if ($currentCategorie !== $ligne['categorie']): /*si la catégorie actuelle est différente de la catérogie en cours, alors ... */
         // Ferme la grille et la catégorie précédente
-        if ($currentCategorie !== null) echo '</div></div>';
-        $currentCategorie = $ligne['categorie'];
+        if ($currentCategorie !== null) echo '</div></div>'; /*si on change de catégorie, on ferme l'ancienne */
+        $currentCategorie = $ligne['categorie']; /*on met à jour, maintenant c'est cette catégorie qu'on affiche*/
 ?>
+
     <div class="tarifs-categorie fade">
         <div class="tarifs-categorie-header">
             <h2><?= htmlspecialchars($currentCategorie) ?></h2>
@@ -484,7 +499,7 @@ foreach ($services as $ligne):
 <?php endif; ?>
 
             <!-- Carte soin -->
-            <div class="tarif-card">
+            <div class="tarif-card"> <!--ouvre une carte individuelle pour un soin -->
                 <h3><?= htmlspecialchars($ligne['nom']) ?></h3>
                 <p class="tarif-desc"><?= nl2br(htmlspecialchars($ligne['description'])) ?></p>
                 <div class="tarif-footer">
