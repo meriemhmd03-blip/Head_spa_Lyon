@@ -35,7 +35,7 @@ $services = $stmt->fetchAll(); /*$services : nouvelle variable qui va contenir t
     <title>Tarifs — Head Spa Lyon By F.</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo_head_spa.png">
     <link rel="stylesheet" href="css/nav_menu.css">
 
 <style>
@@ -74,7 +74,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 480px;
-    background: url('images/cheveux.jpeg') center / cover no-repeat;
+    background: url('images/tarif.jpeg') center / cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
@@ -502,6 +502,7 @@ foreach ($services as $ligne): //boucle qui parcourt chaque éléments de tablea
             <div class="tarif-card"> <!--ouvre une carte individuelle pour un soin -->
                 <h3><?= htmlspecialchars($ligne['nom']) ?></h3>
                 <p class="tarif-desc"><?= nl2br(htmlspecialchars($ligne['description'])) ?></p>
+                <!--nl2br(...) : fonction PHP qui transforme les sauts de ligne (\n) en balises <br> HTML → préserve le formatage du texte.-->
                 <div class="tarif-footer">
                     <span class="tarif-duree">
                         <i class="fa-regular fa-clock"></i>
@@ -523,7 +524,7 @@ foreach ($services as $ligne): //boucle qui parcourt chaque éléments de tablea
     </a>
 </div>
 
-<?php endif; ?>
+<?php endif; ?> <!--Ferme le if (!empty($services)) du début -->
 
 <!-- ========== FOOTER ========== -->
 <footer>
@@ -541,9 +542,12 @@ foreach ($services as $ligne): //boucle qui parcourt chaque éléments de tablea
 <script>
 // Je sélectionne tous les éléments à animer au scroll
 var elements = document.querySelectorAll('.tarif-card, .fade');
+/*méthode qui sélectionne tous les éléments correspondant au sélecteur CSS.*/
+/*'.tarif-card, .fade' : sélecteur multiple → tous les éléments avec la classe tarif-card ou fade.*/
+/* une NodeList (liste d'éléments du DOM) stockée dans elements.*/
 
 // Je crée un observateur qui surveille quand un élément apparaît à l'écran
-var observer = new IntersectionObserver(function(entries) {
+var observer = new IntersectionObserver(function(entries) { // on cree un callback qui va recevoir les entrées
     for (var i = 0; i < entries.length; i++) {
         if (entries[i].isIntersecting) {
             entries[i].target.classList.add('visible');
@@ -559,3 +563,25 @@ for (var i = 0; i < elements.length; i++) {
 
 </body>
 </html>
+
+
+
+
+
+
+
+<!-- <php → on passe en mode PHP
+2. require → on charge la connexion BDD
+3. $sql = "SELECT..." → on écrit la requête
+4. $pdo->query() → on l'exécute
+5. fetchAll() → on stocke les résultats dans $services
+6. ?> → on repasse en HTML
+7. <html>... → structure de base
+8. <php if (!empty($services)) ?> → on vérifie qu'on a des données
+9. foreach ($services as $ligne) → pour chaque soin :
+10.   if (changement de catégorie) → on ouvre une nouvelle section
+11.   <div class="tarif-card"> → on affiche la carte avec les données sécurisées
+12. endforeach → fin de la boucle
+13. "<php endif ?>" → fin de la condition
+14. <script> → on ajoute l'animation au scroll en JS
+15. </html> → fin du document -->

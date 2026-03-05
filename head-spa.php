@@ -6,7 +6,7 @@
     <title>Head Spa — Head Spa Lyon By F.</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/logo_head_spa.png">
     <link rel="stylesheet" href="css/nav_menu.css">
 
 <style>
@@ -232,6 +232,10 @@ a { text-decoration: none; color: inherit; }
     display: block;
     box-shadow: 0 12px 40px rgba(0,0,0,0.1);
     transition: transform 0.5s ease;
+}
+
+.image1 {
+    object-position : 50% 10%;
 }
 
 .section-image img:hover { transform: scale(1.02); }
@@ -477,7 +481,7 @@ footer {
         <p>Le Head Spa transforme le soin capillaire en un véritable moment de détente et de régénération, où chaque geste est intentionnel et chaque respiration, apaisante.</p>
     </div>
     <div class="section-image">
-        <img src="images/presta-head.jpeg" alt="Technique Head Spa">
+        <img src="images/IMG-20260305-WA0008.jpg" alt="Technique Head Spa" class="image1">
     </div>
 </section>
 
