@@ -8,7 +8,8 @@
     <!-- Google Fonts : Cormorant Garamond + Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Font Awesome icons -->
-    <link rel="icon" type="image/png" href="images/logo_head_spa.png">
+    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
 
@@ -169,7 +170,7 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
 .hero {
     height: 100vh; /*Hauteur = 100% de la hauteur de la fenêtre (vh = viewport height). La bannière prend tout l'écran.*/
     min-height: 600px;/*Mais jamais moins de 600px (pour les très petits écrans en hauteur)*/
-    background-image: url('images/piece.jpg');
+    background-image: url('images/f9n7g89hl7y.jpg');
     background-size: cover; /*l'image remplit tout le conteneur sans être déformée (elle peut être légèrement recadrée)*/
     background-position: center;
     position: relative; /*Nécessaire pour que les enfants en position: absolute se positionnent par rapport à .hero*/
@@ -892,13 +893,90 @@ footer {
     letter-spacing: 0.08em;
     color: rgba(85,85,85,0.5);
 }
+/* ==================== WHATSAPP FLOAT ==================== */
 
+.whatsapp-float{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #FAF7F2;
+    color: #156934;
+
+    padding: 7px 15px;
+    border-radius: 40px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+
+    z-index: 999;
+
+    animation: whatsapp-breath 3s ease-in-out infinite;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float img{
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-text{
+    white-space: nowrap;
+}
+
+.whatsapp-float:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+
+@media (max-width:768px){
+
+.whatsapp-text{
+    display:none;
+}
+
+.whatsapp-float{
+    width:58px;
+    height:58px;
+    padding:0;
+    justify-content:center;
+    border-radius:50%;
+}
+
+.whatsapp-float img{
+    width:40px;
+}
+
+}
 @media (max-width: 480px) { footer { padding: 50px 24px 32px; } }
 
 
-
-
 /* ==================== ANIMATIONS ==================== */
+
+/* Animation respiration WhatsApp */
+@keyframes whatsapp-breath {
+
+0% {
+    transform: scale(1);
+}
+
+50% {
+    transform: scale(1.06);
+}
+
+100% {
+    transform: scale(1);
+}
+
+}
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -965,27 +1043,27 @@ footer {
     </div>
     <div class="presta-grid">
         <a href="hair-play.php" class="presta-card">
-            <img src="images/hairplay.png" alt="Hair Play">
+            <img src="images/2026-03-06 155406.jpeg" alt="Hair Play">
             <div class="presta-card-label"><span>Hair Play</span><em>Découvrir le soin</em></div>
         </a>
         <a href="cryo-capillaire.php" class="presta-card">
-            <img src="images/cryocap1.jpeg" alt="Cryothérapie Capillaire">
+            <img src="images/IMG-20260306-WA0026.jpg" alt="Cryothérapie Capillaire">
             <div class="presta-card-label"><span>Cryothérapie Capillaire</span><em>Découvrir le soin</em></div>
         </a>
         <a href="head-spa.php" class="presta-card">
-            <img src="images/presta-head.jpeg" alt="Head Spa">
+            <img src="images/6f5g588rpo.jpeg" alt="Head Spa">
             <div class="presta-card-label"><span>Head Spa</span><em>Découvrir le soin</em></div>
         </a>
         <a href="kobido.php" class="presta-card">
-            <img src="images/kobido.jpeg" alt="Kobido">
+            <img src="images/5de2g1e5e.jpeg" alt="Kobido">
             <div class="presta-card-label"><span>Kobido</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-intuitif.php" class="presta-card">
-            <img src="images/mass-intuitif.jpeg" alt="Massage Intuitif">
+            <img src="images/2q6d2g3e88.jpeg" alt="Massage Intuitif">
             <div class="presta-card-label"><span>Massage Intuitif</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-signature.php" class="presta-card">
-            <img src="images/mass-signature.jpg" alt="Massage Signature">
+            <img src="images/p5e6r6sg1.jpg" alt="Massage Signature">
             <div class="presta-card-label"><span>Massage Signature</span><em>Découvrir le soin</em></div>
         </a>
     </div>
@@ -1087,12 +1165,24 @@ footer {
     <div class="footer-divider"></div>
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
-        <p><i class="fa-solid fa-phone"></i><a href="tel:+33772293748">07 72 29 37 48</a></p>
-        <p><i class="fa-brands fa-instagram"></i><a href="#" target="_blank">@headspalyon_byf</a></p>
     </div>
     <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
 </footer>
 
+<!-- ========== WHATSAPP FLOAT ========== -->
+
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Contact WhatsApp">
+
+    <img src="images/10_29_00.png" alt="WhatsApp">
+
+    <span class="whatsapp-text">
+        Écrivez-nous sur WhatsApp
+    </span>
+
+</a>
 
 <!-- ========== SCRIPTS ========== -->
 

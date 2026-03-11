@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Play à Lyon | Soin sensoriel du cuir chevelu</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/logo_head_spa.png">
+    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
     <link rel="stylesheet" href="css/nav_menu.css">
 
 <style>
@@ -44,7 +44,8 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 460px;
-    background: url('images/hairplay.png') center / cover no-repeat;
+    background: url('images/2026-03-06 155406.jpeg') center / cover no-repeat;
+    background-position : 70% 40%;
     position: relative;
     display: flex;
     align-items: center;
@@ -226,7 +227,8 @@ a { text-decoration: none; color: inherit; }
     width: 100%;
     border-radius: 14px;
     object-fit: cover;
-    aspect-ratio: 4/3;
+    object-position : 70% 80%;
+    aspect-ratio: 3/3;
     display: block;
     box-shadow: 0 12px 40px rgba(0,0,0,0.1);
     transition: transform 0.5s ease;
@@ -386,7 +388,89 @@ footer {
     color: rgba(85,85,85,0.5);
 }
 
+/* ==================== WHATSAPP FLOAT ==================== */
+
+.whatsapp-float{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #FAF7F2;
+    color: #156934;
+
+    padding: 7px 15px;
+    border-radius: 40px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+
+    z-index: 999;
+
+    animation: whatsapp-breath 3s ease-in-out infinite;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float img{
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-text{
+    white-space: nowrap;
+}
+
+.whatsapp-float:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+
+@media (max-width:768px){
+
+.whatsapp-text{
+    display:none;
+}
+
+.whatsapp-float{
+    width:58px;
+    height:58px;
+    padding:0;
+    justify-content:center;
+    border-radius:50%;
+}
+
+.whatsapp-float img{
+    width:40px;
+}
+
+}
+
 /* ==================== ANIMATIONS ==================== */
+/* Animation respiration WhatsApp */
+@keyframes whatsapp-breath {
+
+0% {
+    transform: scale(1);
+}
+
+50% {
+    transform: scale(1.06);
+}
+
+100% {
+    transform: scale(1);
+}
+}
+
+
+
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -475,7 +559,7 @@ footer {
         <p>Chaque séance est entièrement personnalisée, transformant le coiffage en une véritable expérience sensorielle, respectueuse du cuir chevelu et de la structure des cheveux.</p>
     </div>
     <div class="section-image">
-        <img src="images/hairplay.png" alt="Technique Hair Play">
+        <img src="images/pexels-koolshooters-6628688.jpg" alt="Technique Hair Play">
     </div>
 </section>
 
@@ -483,7 +567,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/hairplay.png" alt="Résultats Hair Play">
+            <img src="images/6zbe2v5na1rmr0cwregvr3gh84.png" alt="Résultats Hair Play">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -554,11 +638,24 @@ footer {
     <div class="footer-divider"></div>
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
-        <p><i class="fa-solid fa-phone"></i><a href="tel:+33772293748">07 72 29 37 48</a></p>
-        <p><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/head_spa_lyon" target="_blank">@headspalyon_byf</a></p>
     </div>
     <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
 </footer>
+
+<!-- ========== WHATSAPP FLOAT ========== -->
+
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Contact WhatsApp">
+
+    <img src="images/10_29_00.png" alt="WhatsApp">
+
+    <span class="whatsapp-text">
+        Écrivez-nous sur WhatsApp
+    </span>
+
+</a>
 
 <!-- ========== SCRIPT SCROLL REVEAL ========== -->
 <script>

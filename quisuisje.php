@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><title>Qui suis-je | Praticienne Head Spa à Lyon | Head Spa Lyon By F.</title>
+    <title>Qui suis-je | Praticienne Head Spa à Lyon | Head Spa Lyon By F.</title>
 
     <!-- Polices identiques à tout le site -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/logo_head_spa.png">
+    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
     <link rel="stylesheet" href="css/nav_menu.css">
 
 <style>
@@ -49,7 +49,7 @@ body { padding-top: var(--nav-height); }
 .hero {
     height: 90vh;
     min-height: 560px;
-    background-image: url('images/fadoua_qsj.jpg');
+    background-image: url('images/5ds4fg4d4eq.jpg');
     background-size: cover;
     background-position: 90% 10%;
     position: relative;
@@ -229,7 +229,7 @@ body { padding-top: var(--nav-height); }
     min-height: 380px;
     background:
         linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)),
-        url("images/espace.jpeg") center / cover no-repeat;
+        url("images/4d12f3n4er.jpeg") center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,9 +285,11 @@ body { padding-top: var(--nav-height); }
 
 .rituels-photo img {
     width: 100%;
+    max-height :600px;
     border-radius: 14px;
     object-fit: cover;
-    aspect-ratio: 3/4;
+    object-position : 80% 30%;
+    aspect-ratio: auto;
     display: block;
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
     transition: transform 0.5s ease;
@@ -329,6 +331,25 @@ body { padding-top: var(--nav-height); }
 }
 
 /* ==================== ANIMATIONS ==================== */
+
+/* Animation respiration WhatsApp */
+@keyframes whatsapp-breath {
+
+0% {
+    transform: scale(1);
+}
+
+50% {
+    transform: scale(1.06);
+}
+
+100% {
+    transform: scale(1);
+}
+
+}
+
+
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -345,6 +366,53 @@ body { padding-top: var(--nav-height); }
     transform: translateY(0);
 }
 
+/*lien whatsapp*/
+
+.nav-whatsapp {
+    display: flex;
+    align-items: center;
+   
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #555;
+    transition: color 0.3s;
+}
+
+.nav-whatsapp img {
+    height: 35px;
+    width: auto;
+    display: block;
+}
+
+.nav-whatsapp:hover {
+    color: var(--primary);
+}
+/* Lien Instagram */
+.nav-instagram {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.nav-instagram img {
+    height: 20px;
+    width: auto;
+    display: block;
+}
+
+.nav-instagram:hover { color: var(--primary); }
 /* ==================== FOOTER ==================== */
 footer {
     background: var(--bg);
@@ -391,12 +459,77 @@ footer {
 .footer-info a { color: var(--text-mid); transition: color 0.3s; }
 .footer-info a:hover { color: var(--primary); }
 
+
 .footer-copy {
     font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 300;
     letter-spacing: 0.08em;
     color: rgba(85,85,85,0.5);
+}
+
+/* ==================== WHATSAPP FLOAT ==================== */
+
+.whatsapp-float{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #FAF7F2;
+    color: #156934;
+
+    padding: 7px 15px;
+    border-radius: 40px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+
+    z-index: 999;
+
+    animation: whatsapp-breath 3s ease-in-out infinite;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float img{
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-text{
+    white-space: nowrap;
+}
+
+.whatsapp-float:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+
+@media (max-width:768px){
+
+.whatsapp-text{
+    display:none;
+}
+
+.whatsapp-float{
+    width:58px;
+    height:58px;
+    padding:0;
+    justify-content:center;
+    border-radius:50%;
+}
+
+.whatsapp-float img{
+    width:40px;
+}
+
 }
 
 /* ==================== RESPONSIVE ==================== */
@@ -480,7 +613,7 @@ footer {
         <p>Je n'ai pas eu l'opportunité d'enfanter. Alors j'ai créé un lieu.</p>
     </div>
     <div class="section-image">
-        <img src="images/lieu.jpeg" alt="L'espace de soin">
+        <img src="images/23fs2fdg2z.jpeg" alt="L'espace de soin">
     </div>
 </section>
 
@@ -494,7 +627,7 @@ footer {
         <p>Le massage intuitif, en cercle de femmes, guidées par Océane Chavanel.</p>
     </div>
     <div class="section-image">
-        <img src="images/certifications.jpeg" alt="Certifications">
+        <img src="images/3s2f3d65dg4.jpeg" alt="Certifications">
     </div>
 </section>
 
@@ -514,7 +647,7 @@ footer {
 
             <!-- Photo à gauche -->
             <div class="rituels-photo">
-                <img src="images/head_japonais.jpeg" alt="Head Spa japonais">
+                <img src="images/20260306_160842.jpg" alt="Head Spa japonais">
             </div>
 
             <!-- Cartes rituels à droite -->
@@ -540,7 +673,7 @@ footer {
 <!-- ========== DIFFÉRENCE ========== -->
 <section class="section-duo fade">
     <div class="section-image">
-        <img src="images/ecoute.jpeg" alt="Écoute et présence">
+        <img src="images/2154dgf45dg5.jpeg" alt="Écoute et présence">
     </div>
     <div class="section-text">
         <span class="section-label">Ma promesse</span>
@@ -558,11 +691,25 @@ footer {
     <div class="footer-divider"></div>
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
-        <p><i class="fa-solid fa-phone"></i><a href="tel:+33772293748">07 72 29 37 48</a></p>
-        <p><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/head_spa_lyon" target="_blank">@headspalyon_byf</a></p>
     </div>
     <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
 </footer>
+
+
+<!-- ========== WHATSAPP FLOAT ========== -->
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Contact WhatsApp">
+
+    <img src="images/10_29_00.png" alt="WhatsApp">
+
+    <span class="whatsapp-text">
+        Écrivez-nous sur WhatsApp
+    </span>
+
+</a>
+
 
 <!-- ========== SCRIPT SCROLL REVEAL ========== -->
 <script>

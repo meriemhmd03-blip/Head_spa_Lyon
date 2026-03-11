@@ -161,7 +161,32 @@ a { text-decoration: none; color: inherit; }
     align-items: center;
     gap: 16px;
 }
+/*lien whatsapp*/
 
+.nav-whatsapp {
+    display: flex;
+    align-items: center;
+   
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #555;
+    transition: color 0.3s;
+}
+
+.nav-whatsapp img {
+    height: 35px;
+    width: auto;
+    display: block;
+}
+
+.nav-whatsapp:hover {
+    color: var(--primary);
+}
 /* Lien Instagram */
 .nav-instagram {
     display: flex;
@@ -297,13 +322,12 @@ a { text-decoration: none; color: inherit; }
 
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 1024px) {
-    .nav-instagram span { display: none; }
+  
     .nav-menu { gap: 24px; }
 }
 
 @media (max-width: 768px) {
     .nav-menu        { display: none; }
-    .nav-instagram   { display: none; }
     .nav-btn-reserver { display: none; }
     .burger          { display: flex; }
 

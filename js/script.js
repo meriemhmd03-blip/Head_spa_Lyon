@@ -4,37 +4,58 @@
 /*déclaration de la cst mesVideos*/
 const mesVideos = [ /*[] = tableau (array)*/
     {
-        video: "vidéos/vi1.mp4",
-        image: "images/img1.png"
+        video: "vidéos/copy_33CEF53A-5870-42C6-8B1B-DEBC3299160F.mp4",
+        image: "images/2026-03-11 150816.jpeg"
     }, /*chaque élément = objet*/
     {
-        video: "vidéos/vi2.mp4",
-        image: "images/img2.png"
+        video: "vidéos/ff403d41d8fe4c96b718cfcf7feb479c.mp4",
+        image: "images/2026-03-11 151052.jpeg"
     },
     {
-        video: "vidéos/vi3.mp4",
-        image: "images/img3.png"
+        video: "vidéos/copy_76BBA345-EAAF-4960-AD3A-C4925AAB6F6C.mp4",
+        image: "images/2026-03-11 151238.jpeg"
     },
     {
-        video: "vidéos/vi4.mp4",
-        image: "images/img4.png"
+        video: "vidéos/copy_522DADEC-20C8-4A3B-A03B-2C26EDF5D1B1.mp4",
+        image: "images/2026-03-11 151401.jpeg"
     },
     {
-        video: "vidéos/vi5.mp4",
-        image: "images/img5.png"
+        video: "vidéos/copy_6385BB81-E5BB-40EE-98B8-80E158BCD2A0.mp4",
+        image: "images/2026-03-11 151457.jpeg"
     },
     {
-        video: "vidéos/vi7.mp4",
-        image: "images/img7.png"
+        video: "vidéos/eddeb55fe2614ddc9efff4656b10a7a7.mp4",
+        image: "images/2026-03-11 151847.jpeg"
     },
     {
-        video: "vidéos/vi8.mp4",
-        image: "images/img8.png"
+        video: "vidéos/IMG_6778.mp4",
+        image: "images/2026-03-11 152008.jpeg"
     },
     {
-        video: "vidéos/vi10.mp4",
-        image: "images/img10.png"
-    }
+        video: "vidéos/IMG_6779.mp4",
+        image: "images/2026-03-11 152217.jpeg"
+    },
+    {
+        video: "vidéos/IMG_6936.mp4",
+        image: "images/2026-03-11 152309.jpeg"
+    },
+    {
+        video: "vidéos/IMG_6941.mp4",
+        image: "images/2026-03-11 152511.jpeg"
+    },
+    {
+        video: "vidéos/IMG_7112.mp4",
+        image: "images/2026-03-11 152553.jpeg"
+    },
+    {
+        video: "vidéos/IMG_7209.mp4",
+        image: "images/2026-03-11 152745.jpeg"
+    },
+    {
+        video: "vidéos/IMG_9295.mp4",
+        image: "images/2026-03-11 152828.jpeg"
+    },
+
 ];
 
 
