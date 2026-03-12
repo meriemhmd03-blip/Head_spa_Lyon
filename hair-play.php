@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Play à Lyon | Soin sensoriel du cuir chevelu</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
-    <link rel="stylesheet" href="css/nav_menu.css">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+
 
 <style>
 
@@ -44,7 +44,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 460px;
-    background: url('images/2026-03-06 155406.jpeg') center / cover no-repeat;
+    background: url('images/2026-03-06 155406.webp') center / cover no-repeat;
     background-position : 70% 40%;
     position: relative;
     display: flex;
@@ -559,7 +559,7 @@ footer {
         <p>Chaque séance est entièrement personnalisée, transformant le coiffage en une véritable expérience sensorielle, respectueuse du cuir chevelu et de la structure des cheveux.</p>
     </div>
     <div class="section-image">
-        <img src="images/pexels-koolshooters-6628688.jpg" alt="Technique Hair Play">
+        <img src="images/pexels-koolshooters-6628688.webp" alt="Technique Hair Play">
     </div>
 </section>
 
@@ -567,7 +567,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/6zbe2v5na1rmr0cwregvr3gh84.png" alt="Résultats Hair Play">
+            <img src="images/6zbe2v5na1rmr0cwregvr3gh84.webp" alt="Résultats Hair Play">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -649,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

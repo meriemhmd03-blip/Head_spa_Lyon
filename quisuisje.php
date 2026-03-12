@@ -7,8 +7,7 @@
 
     <!-- Polices identiques à tout le site -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
-    <link rel="stylesheet" href="css/nav_menu.css">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
 
 <style>
 
@@ -49,7 +48,7 @@ body { padding-top: var(--nav-height); }
 .hero {
     height: 90vh;
     min-height: 560px;
-    background-image: url('images/5ds4fg4d4eq.jpg');
+    background-image: url('images/5ds4fg4d4eq.webp');
     background-size: cover;
     background-position: 90% 10%;
     position: relative;
@@ -229,7 +228,7 @@ body { padding-top: var(--nav-height); }
     min-height: 380px;
     background:
         linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)),
-        url("images/4d12f3n4er.jpeg") center / cover no-repeat;
+        url("images/4d12f3n4er.webp") center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -613,7 +612,7 @@ footer {
         <p>Je n'ai pas eu l'opportunité d'enfanter. Alors j'ai créé un lieu.</p>
     </div>
     <div class="section-image">
-        <img src="images/23fs2fdg2z.jpeg" alt="L'espace de soin">
+        <img src="images/23fs2fdg2z.webp" alt="L'espace de soin">
     </div>
 </section>
 
@@ -627,7 +626,7 @@ footer {
         <p>Le massage intuitif, en cercle de femmes, guidées par Océane Chavanel.</p>
     </div>
     <div class="section-image">
-        <img src="images/3s2f3d65dg4.jpeg" alt="Certifications">
+        <img src="images/3s2f3d65dg4.webp" alt="Certifications">
     </div>
 </section>
 
@@ -647,7 +646,7 @@ footer {
 
             <!-- Photo à gauche -->
             <div class="rituels-photo">
-                <img src="images/20260306_160842.jpg" alt="Head Spa japonais">
+                <img src="images/20260306_160842.webp" alt="Head Spa japonais">
             </div>
 
             <!-- Cartes rituels à droite -->
@@ -673,7 +672,7 @@ footer {
 <!-- ========== DIFFÉRENCE ========== -->
 <section class="section-duo fade">
     <div class="section-image">
-        <img src="images/2154dgf45dg5.jpeg" alt="Écoute et présence">
+        <img src="images/2154dgf45dg5.webp" alt="Écoute et présence">
     </div>
     <div class="section-text">
         <span class="section-label">Ma promesse</span>
@@ -702,7 +701,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

@@ -35,8 +35,8 @@ $services = $stmt->fetchAll(); /*$services : nouvelle variable qui va contenir t
     <title>Tarifs — Head Spa Lyon By F.</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
-    <link rel="stylesheet" href="css/nav_menu.css">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+
 
 <style>
 
@@ -74,7 +74,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 480px;
-    background: url('images/relaxation-3065579_1280.jpg') center / cover no-repeat;
+    background: url('images/relaxation-3065579_1280.webp') center / cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
@@ -624,7 +624,7 @@ foreach ($services as $ligne): //boucle qui parcourt chaque éléments de tablea
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

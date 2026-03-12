@@ -6,8 +6,7 @@
     <title>Cryothérapie capillaire à Lyon | Soin cheveux Head Spa</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
-    <link rel="stylesheet" href="css/nav_menu.css">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
 
 <style>
 
@@ -224,7 +223,7 @@ a { text-decoration: none; color: inherit; }
 
 .section-text p:last-child { margin-bottom: 0; }
 
-.section-image video {
+.section-image img {
     width: 100%;
     border-radius: 14px;
     object-fit: cover;
@@ -559,9 +558,7 @@ footer {
         <p>La stimulation répétée par le froid favorise la croissance et la résistance des cheveux, tout en préparant le cuir chevelu à mieux recevoir les soins complémentaires.</p>
     </div>
     <div class="section-image">
-        <video autoplay muted loop >
-            <source src="vidéos/VID-20260306-WA0019.mp4" type="video/mp4">
-        </video>  
+        <img src="images/IMG_2610.webp" alt="cryothérapie capillaire" >
     </div>
 </section>
 
@@ -569,9 +566,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <video autoplay muted loop >
-                <source src="vidéos/IMG_2653.mp4" type="video/mp4">
-            </video> 
+            <img src="images/IMG-20260306-WA0026.webp" alt="Résultat cryothérapie capillaire" >
         </div>
 
         <div class="section-text">
@@ -654,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

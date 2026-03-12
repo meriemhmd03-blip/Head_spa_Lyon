@@ -8,7 +8,7 @@
     <!-- Google Fonts : Cormorant Garamond + Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Font Awesome icons -->
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
@@ -170,7 +170,7 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
 .hero {
     height: 100vh; /*Hauteur = 100% de la hauteur de la fenêtre (vh = viewport height). La bannière prend tout l'écran.*/
     min-height: 600px;/*Mais jamais moins de 600px (pour les très petits écrans en hauteur)*/
-    background-image: url('images/f9n7g89hl7y.jpg');
+    background-image: url('images/f9n7g89hl7y.webp');
     background-size: cover; /*l'image remplit tout le conteneur sans être déformée (elle peut être légèrement recadrée)*/
     background-position: center;
     position: relative; /*Nécessaire pour que les enfants en position: absolute se positionnent par rapport à .hero*/
@@ -1043,27 +1043,27 @@ footer {
     </div>
     <div class="presta-grid">
         <a href="hair-play.php" class="presta-card">
-            <img src="images/2026-03-06 155406.jpeg" alt="Hair Play">
+            <img src="images/2026-03-06 155406.webp" alt="Hair Play">
             <div class="presta-card-label"><span>Hair Play</span><em>Découvrir le soin</em></div>
         </a>
         <a href="cryo-capillaire.php" class="presta-card">
-            <img src="images/IMG-20260306-WA0026.jpg" alt="Cryothérapie Capillaire">
+            <img src="images/IMG-20260306-WA0026.webp" alt="Cryothérapie Capillaire">
             <div class="presta-card-label"><span>Cryothérapie Capillaire</span><em>Découvrir le soin</em></div>
         </a>
         <a href="head-spa.php" class="presta-card">
-            <img src="images/6f5g588rpo.jpeg" alt="Head Spa">
+            <img src="images/6f5g588rpo.webp" alt="Head Spa">
             <div class="presta-card-label"><span>Head Spa</span><em>Découvrir le soin</em></div>
         </a>
         <a href="kobido.php" class="presta-card">
-            <img src="images/5de2g1e5e.jpeg" alt="Kobido">
+            <img src="images/5de2g1e5e.webp" alt="Kobido">
             <div class="presta-card-label"><span>Kobido</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-intuitif.php" class="presta-card">
-            <img src="images/2q6d2g3e88.jpeg" alt="Massage Intuitif">
+            <img src="images/2q6d2g3e88.webp" alt="Massage Intuitif">
             <div class="presta-card-label"><span>Massage Intuitif</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-signature.php" class="presta-card">
-            <img src="images/p5e6r6sg1.jpg" alt="Massage Signature">
+            <img src="images/p5e6r6sg1.webp" alt="Massage Signature">
             <div class="presta-card-label"><span>Massage Signature</span><em>Découvrir le soin</em></div>
         </a>
     </div>
@@ -1176,7 +1176,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

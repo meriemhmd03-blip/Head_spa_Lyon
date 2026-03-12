@@ -4,56 +4,52 @@
 /*déclaration de la cst mesVideos*/
 const mesVideos = [ /*[] = tableau (array)*/
     {
-        video: "vidéos/copy_33CEF53A-5870-42C6-8B1B-DEBC3299160F.mp4",
-        image: "images/2026-03-11 150816.jpeg"
+        video: "vidéos/Copy 33Cef53a-5870-42C6-8B1b-Debc3299160f(3).webm",
+        image: "images/2026-03-11 150816.webp"
     }, /*chaque élément = objet*/
     {
-        video: "vidéos/ff403d41d8fe4c96b718cfcf7feb479c.mp4",
-        image: "images/2026-03-11 151052.jpeg"
+        video: "vidéos/Ff403d41d8fe4c96b718cfcf7feb479c.webm",
+        image: "images/2026-03-11 151052.webp"
     },
     {
-        video: "vidéos/copy_76BBA345-EAAF-4960-AD3A-C4925AAB6F6C.mp4",
-        image: "images/2026-03-11 151238.jpeg"
+        video: "vidéos/Copy 76Bba345-Eaaf-4960-Ad3a-C4925aab6f6c(1).webm",
+        image: "images/2026-03-11 151238.webp"
     },
     {
-        video: "vidéos/copy_522DADEC-20C8-4A3B-A03B-2C26EDF5D1B1.mp4",
-        image: "images/2026-03-11 151401.jpeg"
+        video: "vidéos/Copy 522Dadec-20C8-4A3b-A03b-2C26edf5d1b1(1).webm",
+        image: "images/2026-03-11 151401.webp"
     },
     {
-        video: "vidéos/copy_6385BB81-E5BB-40EE-98B8-80E158BCD2A0.mp4",
-        image: "images/2026-03-11 151457.jpeg"
+        video: "vidéos/Copy 6385Bb81-E5bb-40Ee-98B8-80E158bcd2a0(1).webm",
+        image: "images/2026-03-11 151457.webp"
     },
     {
-        video: "vidéos/eddeb55fe2614ddc9efff4656b10a7a7.mp4",
-        image: "images/2026-03-11 151847.jpeg"
+        video: "vidéos/Img 6778.webm",
+        image: "images/2026-03-11 152008.webp"
     },
     {
-        video: "vidéos/IMG_6778.mp4",
-        image: "images/2026-03-11 152008.jpeg"
+        video: "vidéos/Img 6779.webm",
+        image: "images/2026-03-11 152217.webp"
     },
     {
-        video: "vidéos/IMG_6779.mp4",
-        image: "images/2026-03-11 152217.jpeg"
+        video: "vidéos/Img 6936.webm",
+        image: "images/2026-03-11 152309.webp"
     },
     {
-        video: "vidéos/IMG_6936.mp4",
-        image: "images/2026-03-11 152309.jpeg"
+        video: "vidéos/Img 6941.webm",
+        image: "images/2026-03-11 152511.webp"
     },
     {
-        video: "vidéos/IMG_6941.mp4",
-        image: "images/2026-03-11 152511.jpeg"
+        video: "vidéos/Img 7112.webm",
+        image: "images/2026-03-11 152553.webp"
     },
     {
-        video: "vidéos/IMG_7112.mp4",
-        image: "images/2026-03-11 152553.jpeg"
+        video: "vidéos/Img 7209.webm",
+        image: "images/2026-03-11 152745.webp"
     },
     {
-        video: "vidéos/IMG_7209.mp4",
-        image: "images/2026-03-11 152745.jpeg"
-    },
-    {
-        video: "vidéos/IMG_9295.mp4",
-        image: "images/2026-03-11 152828.jpeg"
+        video: "vidéos/Img 9295 (1).webm",
+        image: "images/2026-03-11 152828.webp"
     },
 
 ];

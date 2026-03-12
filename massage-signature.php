@@ -6,8 +6,7 @@
     <title>Massage signature Head Spa à Lyon | Soin exclusif | Head Spa Lyon By F.</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/6z9f45s3fdf.png">
-    <link rel="stylesheet" href="css/nav_menu.css">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
 
 <style>
 
@@ -45,7 +44,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 460px;
-    background: url('images/p5e6r6sg1.jpg') center / cover no-repeat;
+    background: url('images/p5e6r6sg1.webp') center / cover no-repeat;
     background-position : 70% 80%;
     position: relative;
     display: flex;
@@ -560,7 +559,7 @@ footer {
         <p>Chaque séance est entièrement adaptée à votre corps, votre état émotionnel et vos besoins du jour. Le Massage Signature est avant tout une promesse : celle d'un soin dont vous ressortirez transformée.</p>
     </div>
     <div class="section-image">
-        <img src="images/pexels-jonathanborba-19641826.jpg" alt="Technique du Massage Signature">
+        <img src="images/pexels-jonathanborba-19641826.webp" alt="Technique du Massage Signature">
     </div>
 </section>
 
@@ -568,7 +567,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/istockphoto-2166589316-1024x1024.jpeg" alt="Résultats du Massage Signature">
+            <img src="images/istockphoto-2166589316-1024x1024.webp" alt="Résultats du Massage Signature">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -650,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.png" alt="WhatsApp">
+    <img src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
