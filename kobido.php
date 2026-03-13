@@ -558,7 +558,7 @@ footer {
         <p>La stimulation répétée des tissus favorise l'oxygénation cellulaire et participe au renouvellement cutané, pour une peau plus ferme, un teint plus homogène et une meilleure réceptivité aux soins.</p>
     </div>
     <div class="section-image">
-        <img src="images/istockphoto-2185763196-1024x1024.webp" alt="Technique du soin Kobido">
+        <img loading="lazy" src="images/istockphoto-2185763196-1024x1024.webp" alt="Technique du soin Kobido">
     </div>
 </section>
 
@@ -566,7 +566,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/wmremove-transformed-655889.webp" alt="Résultats du soin Kobido">
+            <img loading="lazy" src="images/wmremove-transformed-655889.webp" alt="Résultats du soin Kobido">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -648,7 +648,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

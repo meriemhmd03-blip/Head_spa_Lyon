@@ -558,7 +558,7 @@ footer {
         <p>Appris en cercle de femmes, guidé par Océane Chavanel, ce massage porte en lui une intention douce et bienveillante, qui accompagne le corps sans jamais le forcer.</p>
     </div>
     <div class="section-image">
-        <img src="images/pexels-anete-lusina-5240678.webp" alt="Technique du Massage Intuitif">
+        <img loading="lazy" src="images/pexels-anete-lusina-5240678.webp" alt="Technique du Massage Intuitif">
     </div>
 </section>
 
@@ -566,7 +566,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/pexels-716713554-28321588.webp" alt="Résultats du Massage Intuitif">
+            <img loading="lazy" src="images/pexels-716713554-28321588.webp" alt="Résultats du Massage Intuitif">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -649,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

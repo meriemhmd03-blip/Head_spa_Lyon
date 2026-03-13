@@ -558,7 +558,7 @@ footer {
         <p>La stimulation répétée par le froid favorise la croissance et la résistance des cheveux, tout en préparant le cuir chevelu à mieux recevoir les soins complémentaires.</p>
     </div>
     <div class="section-image">
-        <img src="images/IMG_2610.webp" alt="cryothérapie capillaire" >
+        <img loading="lazy" src="images/IMG_2610.webp" alt="cryothérapie capillaire" >
     </div>
 </section>
 
@@ -566,7 +566,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/IMG-20260306-WA0026.webp" alt="Résultat cryothérapie capillaire" >
+            <img loading="lazy" src="images/IMG-20260306-WA0026.webp" alt="Résultat cryothérapie capillaire" >
         </div>
 
         <div class="section-text">
@@ -649,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

@@ -612,7 +612,7 @@ footer {
         <p>Je n'ai pas eu l'opportunité d'enfanter. Alors j'ai créé un lieu.</p>
     </div>
     <div class="section-image">
-        <img src="images/23fs2fdg2z.webp" alt="L'espace de soin">
+        <img loading="lazy" src="images/23fs2fdg2z.webp" alt="L'espace de soin">
     </div>
 </section>
 
@@ -626,7 +626,7 @@ footer {
         <p>Le massage intuitif, en cercle de femmes, guidées par Océane Chavanel.</p>
     </div>
     <div class="section-image">
-        <img src="images/3s2f3d65dg4.webp" alt="Certifications">
+        <img loading="lazy" src="images/3s2f3d65dg4.webp" alt="Certifications">
     </div>
 </section>
 
@@ -646,7 +646,7 @@ footer {
 
             <!-- Photo à gauche -->
             <div class="rituels-photo">
-                <img src="images/20260306_160842.webp" alt="Head Spa japonais">
+                <img loading="lazy" src="images/20260306_160842.webp" alt="Head Spa japonais">
             </div>
 
             <!-- Cartes rituels à droite -->
@@ -672,7 +672,7 @@ footer {
 <!-- ========== DIFFÉRENCE ========== -->
 <section class="section-duo fade">
     <div class="section-image">
-        <img src="images/2154dgf45dg5.webp" alt="Écoute et présence">
+        <img loading="lazy" src="images/2154dgf45dg5.webp" alt="Écoute et présence">
     </div>
     <div class="section-text">
         <span class="section-label">Ma promesse</span>
@@ -701,7 +701,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

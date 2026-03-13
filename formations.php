@@ -1352,7 +1352,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </div>
 </div>
 <div class="philosophie-image">
-<img src="images/23ergh1ert4.webp" alt="Rituel Head Spa - Massage du cuir chevelu" loading="lazy">
+<img loading="lazy" src="images/23ergh1ert4.webp" alt="Rituel Head Spa - Massage du cuir chevelu" loading="lazy">
 </div>
 </div>
 </div>
@@ -1375,7 +1375,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </div>
 </div>
 <div class="formation-image">
-<img src="images/24ezg4erg.webp" alt="Formation Head Spa en ligne sur ordinateur" loading="lazy">
+<img loading="lazy" src="images/24ezg4erg.webp" alt="Formation Head Spa en ligne sur ordinateur" loading="lazy">
 </div>
 </div>
 </div>
@@ -1624,31 +1624,31 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <div class="slider-wrapper">
 <div class="slider-track" id="sliderTrack" role="list">
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/a9f83j4k2l.webp" alt="Dilek - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/a9f83j4k2l.webp" alt="Dilek - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Dilek</h3><p>« Cette formation a transformé ma pratique. Mes clientes adorent le Head Spa ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/d8k2p0s9x3.webp" alt="Léane - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/d8k2p0s9x3.webp" alt="Léane - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Léane</h3><p>« Un vrai plus pour mon institut. Positionnement premium immédiat ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/z7h2f4l1a6.webp" alt="Michelle - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/z7h2f4l1a6.webp" alt="Michelle - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Michelle</h3><p>« Méthode claire et professionnelle. J'ai intégré le Head Spa en 2 semaines ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/q3m8v1k7t2.webp" alt="Françoise - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/q3m8v1k7t2.webp" alt="Françoise - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Françoise</h3><p>« Mes clients reviennent spécialement pour le Head Spa. Une vraie différenciation ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/x6p2d9f4s1.webp" alt="Justine - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/x6p2d9f4s1.webp" alt="Justine - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Justine</h3><p>« Grâce à cette formation, j'ai créé un service à forte valeur ajoutée. »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/n4h7z8c2w5.webp" alt="Rose-Marie - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/n4h7z8c2w5.webp" alt="Rose-Marie - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Rose-Marie</h3><p>« Le Head Spa s'intègre naturellement dans ma pratique. »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img src="images/t8f1v6n3k0.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/t8f1v6n3k0.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate"></i></div></div>
 <div class="eleve-info"><h3>Angélique</h3><p>« Les explications sont simples et concrètes. J'ai appliqué le protocole dès la semaine suivante. »</p></div>
 </div>
 </div>
@@ -1760,7 +1760,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

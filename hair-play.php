@@ -559,7 +559,7 @@ footer {
         <p>Chaque séance est entièrement personnalisée, transformant le coiffage en une véritable expérience sensorielle, respectueuse du cuir chevelu et de la structure des cheveux.</p>
     </div>
     <div class="section-image">
-        <img src="images/pexels-koolshooters-6628688.webp" alt="Technique Hair Play">
+        <img loading="lazy" src="images/pexels-koolshooters-6628688.webp" alt="Technique Hair Play">
     </div>
 </section>
 
@@ -567,7 +567,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/6zbe2v5na1rmr0cwregvr3gh84.webp" alt="Résultats Hair Play">
+            <img loading="lazy" src="images/6zbe2v5na1rmr0cwregvr3gh84.webp" alt="Résultats Hair Play">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -649,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp

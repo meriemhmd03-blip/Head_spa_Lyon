@@ -6,7 +6,7 @@
 
         <!-- Logo à gauche -->
         <a href="index.php" class="nav-logo">
-            <img src="images/6z9f45s3fdf.webp" alt="Head Spa Lyon By F.">
+            <img loading="lazy" src="images/6z9f45s3fdf.webp" alt="Head Spa Lyon By F.">
         </a>
 
         <!-- Liens de navigation (centre) -->
@@ -36,13 +36,13 @@
 
             <!-- Bouton WhatsApp -->
             <a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations" target="_blank" class="nav-whatsapp">
-                <img src="images/10_29_00.webp" alt="WhatsApp">
+                <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
                 <span>Contactez-nous</span>
             </a>
 
             <!-- Lien Instagram -->
             <a href="https://www.instagram.com/head_spa_lyon" target="_blank" class="nav-instagram">
-                <img src="images/5d2g1g5z.webp" alt="Instagram">
+                <img loading="lazy" src="images/5d2g1g5z.webp" alt="Instagram">
                 <span>Suivez-nous</span>
             </a>
 

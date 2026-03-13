@@ -2,30 +2,23 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Head Spa à Lyon | Cryothérapie capillaire, Kobido, Massage, Head Spa, Hair Play</title>
+    <meta name="description" content="Head Spa à Lyon | Cryothérapie capillaire, Kobido, Massage, Head Spa, Hair Play, Formation en ligne">
+    <title>Head Spa à Lyon | Cryothérapie capillaire, Kobido, Massage, Head Spa, Hair Play, Formation en ligne</title>
 
     <!-- Google Fonts : Cormorant Garamond + Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Font Awesome icons -->
     <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
-
-
 /* ==================== RESET & VARIABLES ==================== */
-
-
 *, *::before, *::after { /*sélecteur universel : cible TOUS les éléments de la page / *before *after cible les pseudo-éléments*/
     margin: 0; /*Supprime les marges extérieures par défaut (chaque navigateur en ajoute) */
     padding: 0; /*Supprime les marges intérieures par défaut */
     box-sizing: border-box; /*inclus le padding dans width*/
 }
 /* on fait ca pour avoir les mêmes bases sur tous les navigateurs */
-
-
-
 /* =================== LES VARIABLES CSS ===================== */
 :root { /*Sélecteur spécial qui cible l'élément racine <html>. Les variables définies ici sont accessibles partout dans le CSS.*/
     --primary:       #C97A93; /*Crée une variable nommée --primary avec la valeur #C97A93 (rose). Le -- indique que c'est une variable CSS.*/
@@ -42,12 +35,8 @@
     --font-display: 'Cormorant Garamond', serif; /*serif = police de secours si la première n'est pas dispo*/
     --font-body:    'Raleway', sans-serif;
 }
-
-
-
 /*======================== REGLAGES DE BASE DU CORPS DE PAGE ================== */
 html { scroll-behavior: smooth; } /*Rend le défilement fluide quand on clique sur un lien ancre (#contact)*/
-
 body {
     font-family: var(--font-body);
     color: var(--text-dark);
@@ -55,11 +44,7 @@ body {
     line-height: 1.6; /* Hauteur de ligne = 1.6x la talle de police ->texte plus aéré, plus lisible */
     font-size: 16px;
 }
-
 a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la couleur de leur parent (au lieu du bleu par défaut)*/
-
-
-
 /* ==================== NAVIGATION ==================== */
 .nav { /* Barre de navigation principale */
     position: absolute; /*Sort l'élément du flux normal → il "flotte" par-dessus le contenu*/
@@ -70,7 +55,6 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     justify-content: space-between; /*Écarte au maximum : logo à gauche, liens à droite*/
     padding: 28px 60px; /*Marge intérieure : 28px en haut/bas, 60px à gauche/droite*/
 }
-
 .nav-logo { /* Logo de navigation*/
     font-family: var(--font-display);
     font-style: italic;
@@ -80,15 +64,12 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     letter-spacing: 0.02em; /*Espace entre les lettres = 2% de la taille de la police → un peu plus aéré*/
     text-shadow: 0 2px 8px rgba(0,0,0,0.4); /*Ombre portée sur le texte : décalage X=0, Y=2px, flou=8px, couleur=noir 40% opaque → rend le texte lisible sur l'image de fond*/
 }
-
 .nav-links { /* Liens de navigation*/
     display: flex; /*Met les liens côte à côte sur une ligne*/
     gap: 40px; /*Espace entre les éléments flex*/
     list-style: none; /*Enlève les puces des <li> (car .nav-links est un <ul>)*/
 }
-
 .nav-links a {
-    font-family: var(--font-body);
     font-weight: 300;
     font-size: 11px;
     letter-spacing: 0.18em;
@@ -97,10 +78,7 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     transition: color 0.3s ease; /*Animation douce quand la couleur change (au survol) : 0.3 secondes, courbe "ease" (démarrage/fin doux)*/
     text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
-
 .nav-links a:hover { color: #fff; } /*	Au survol de la souris, le lien devient blanc 100% opaque*/
-
-
 /*========================= MOBILE ======================*/
 /*menu burger mobile*/
 .nav-burger { 
@@ -117,7 +95,6 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     background: #fff;
     border-radius: 2px;
 }
-
 /*menu mobile plein écran*/
 .nav-mobile {
     display: none;
@@ -130,11 +107,8 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     justify-content: center; /*ET verticalement*/
     gap: 36px;
 }
-
 .nav-mobile.open { display: flex; } /*Quand JavaScript ajoute la classe open, le menu apparaît en flex*/
-
 .nav-mobile a {
-    font-family: var(--font-body);
     font-weight: 300;
     font-size: 13px;
     letter-spacing: 0.2em;
@@ -143,7 +117,6 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     transition: color 0.3s;
 }
 .nav-mobile a:hover { color: #fff; }
-
 .nav-mobile-close {
     position: absolute;
     top: 28px; right: 28px;
@@ -153,8 +126,6 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     background: none;
     border: none;
 }
-
-
 /*============== MEDIA QUERY : ADAPTATION MOBILE ===========*/
 /*On adapte le design selon la taille de l'écran*/
 @media (max-width: 768px) { /*"Si l'écran fait 768px de large ou moins" (tablettes et mobiles)*/
@@ -162,11 +133,7 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     .nav-links { display: none; } /*Cache le menu horizontal classique*/
     .nav-burger { display: flex; } /*Affiche le bouton burger à la place*/
 }
-
-
-
 /* ==================== HERO : BANNIERE PRINCIPALE ==================== */
-
 .hero {
     height: 100vh; /*Hauteur = 100% de la hauteur de la fenêtre (vh = viewport height). La bannière prend tout l'écran.*/
     min-height: 600px;/*Mais jamais moins de 600px (pour les très petits écrans en hauteur)*/
@@ -178,7 +145,6 @@ a { text-decoration: none; color: inherit; } /*inherit = les liens prennent la c
     align-items: center; /*Centre le contenu verticalement (grâce à display: flex)*/
     overflow: hidden; /*Cache tout ce qui dépasse du conteneur (évite les débordements visuels)*/
 }
-
 .hero::before { /* Filtre sombre sur l'image (pseudo-élément) / but :  Assombrir l'image pour que le texte blanc reste lisible, avec un effet esthétique en dégradé./ 	
 Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémentaire) */ 
     content: ''; /*Obligatoire pour que ::before s'affiche. Vide car on veut juste un fond.*/
@@ -187,7 +153,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     background: linear-gradient(135deg, rgba(0,0,0,0.45) 0%, rgba(46,27,1,0.25) 100%);
     z-index: 1; /*Cette couche est au-dessus de l'image de fond, mais en-dessous du texte (z-index: 2)*/
 }
-
 .hero-content {
     position: relative;
     z-index: 2; /*Le contenu est AU-DESSUS du filtre sombre (z-index:1)*/
@@ -195,10 +160,8 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     max-width: 580px; /*Le texte ne dépasse jamais 580px de large → reste lisible même sur grand écran*/
     animation: fadeInUp 1.2s ease forwards; /*Applique l'animation fadeInUp : durée 1.2s, courbe douce, forwards = garde l'état final après l'animation*/
 }
-
 /*========= TYPOGRAPHIE DU HERO ==============*/
 .hero-eyebrow { /*Petit texte d'introduction ("Institut de soin...")*/
-    font-family: var(--font-body);
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.3em;
@@ -207,7 +170,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     margin-bottom: 20px;
     display: block;
 }
-
 .hero h1 {
     font-family: var(--font-display);
     font-weight: 400;
@@ -222,15 +184,12 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     text-shadow: 0 4px 20px rgba(0,0,0,0.3);
     letter-spacing: 0.01em;
 }
-
 .hero h1 em { /* le mot By F. */
     font-style: italic;
     font-weight: 300;
     color: rgba(255,255,255,0.85);
 }
-
 .hero-sub {
-    font-family: var(--font-body);
     font-size: 0.95rem;
     font-weight: 300;
     letter-spacing: 0.08em;
@@ -238,11 +197,9 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     margin-bottom: 36px;
     text-transform: uppercase;
 }
-
 /* =============== BOUTON D'ACTION ============ */ 
 .btn {
     display: inline-block; /*Permet d'appliquer padding/marge à un lien <a> tout en restant "en ligne"*/
-    font-family: var(--font-body);
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 0.2em;
@@ -254,14 +211,11 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /*Anime 3 propriétés au survol : couleur de fond, position, ombre*/
     box-shadow: 0 8px 24px rgba(201,122,147,0.4);
 }
-
 .btn:hover {
     background: var(--primary-dark);
     transform: translateY(-3px); /*Au survol, le bouton monte de 3px → effet "soulevé" interactif*/
     box-shadow: 0 14px 30px rgba(201,122,147,0.5); /*L'ombre s'agrandit et s'intensifie au survol → renforce l'effet 3D*/
 }
-
-
 /* ============== INDICATEUR DE SCROLL (FLECHE QUI REBONDIT) ============ */
 .hero-scroll {
     position: absolute;
@@ -276,19 +230,16 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     align-items: center;
     gap: 8px; /*Espace entre le texte "Découvrir" et l'icône flèche*/
     color: rgba(255,255,255,0.6);
-    font-family: var(--font-body);
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     animation: bounce 2.5s ease-in-out infinite; /*Applique l'animation bounce : durée 2.5s, démarrage/fin doux, en boucle infinie*/
 }
 .hero-scroll i { font-size: 0.8rem; }
-
 @keyframes bounce { /*Crée un mouvement de rebond doux*/
     0%, 100% { transform: translateX(-50%) translateY(0); } /*0% et 100% : position normale*/
     50%       { transform: translateX(-50%) translateY(6px); } /*50% : descend de 6px (translateY(6px))*/
 }
-
 @media (max-width: 768px) { /*Réduit les marges latérales du hero pour gagner de l'espace*/
     .hero-content { margin-left: 40px; margin-right: 40px; }
 }
@@ -296,8 +247,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     .hero-content { margin-left: 24px; margin-right: 24px; text-align: center; }
     .hero { height: 90vh; }
 }
-
-
 /* ==================== BIENVENUE ==================== */
 .bienvenue {
     padding: 100px 40px;
@@ -305,10 +254,8 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     margin: 0 auto; /*Centre horizontalement la section (marge gauche/droite automatique)*/
     text-align: center;
 }
-
 .section-label { /*"Notre philosophie"*/
     display: block;
-    font-family: var(--font-body);
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.3em;
@@ -316,7 +263,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     color: var(--primary);
     margin-bottom: 20px;
 }
-
 .bienvenue h2 {
     font-family: var(--font-display);
     font-weight: 400;
@@ -326,18 +272,14 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     margin-bottom: 40px;
     letter-spacing: 0.01em;
 }
-
 .bienvenue h2 em { font-style: italic; font-weight: 300; }
-
 .bienvenue-divider { /*Petite ligne décorative sous le titre H2 : 50px de large, 1px de haut, couleur rose*/
     width: 50px;
     height: 1px;
     background: var(--primary);
     margin: 0 auto 40px; /*Marge : haut=0, gauche/droite=auto (centré), bas=40px*/
 }
-
 .bienvenue p { /*texte courant*/
-    font-family: var(--font-body);
     font-size: 1rem;
     font-weight: 300;
     color: var(--text-mid);
@@ -347,23 +289,17 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     margin-left: auto;
     margin-right: auto;
 }
-
 @media (max-width: 480px) { .bienvenue { padding: 70px 24px; } }
-
-
-
 /* ==================== PRESTATIONS ==================== */
 .prestations {
     padding: 0 40px 100px;
     max-width: 1400px;
     margin: 0 auto;
 }
-
 .prestations-header {
     text-align: center;
     margin-bottom: 60px;
 }
-
 .prestations-header h2 {
     font-family: var(--font-display);
     font-weight: 400;
@@ -371,24 +307,18 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     color: var(--accent);
     letter-spacing: 0.01em;
 }
-
-
 /* GRILLE FIXE 3 colonnes */
 .presta-grid {
     display: grid; /*Active CSS Grid, un système de mise en page en 2D (lignes + colonnes)*/
     grid-template-columns: repeat(3, 1fr); /*Crée 3 colonnes de largeur égale. 1fr = "1 fraction" de l'espace disponible. 3 colonnes = 3 × 1fr = espace divisé en 3*/
     gap: 20px; /*Espace entre les cartes*/
 }
-
 @media (max-width: 900px) { .presta-grid { grid-template-columns: repeat(2, 1fr); } } /*Sur tablette : passe à 2 colonnes*/
 @media (max-width: 560px) {
     .presta-grid { grid-template-columns: 1fr; gap: 16px; } /*Sur mobile : 1 seule colonne, les cartes s'empilent*/
     .prestations { padding: 0 16px 70px; }
 }
 /*Avantage de Grid : Le responsive se gère en changeant juste le nombre de colonnes, sans toucher au HTML.*/
-
-
-
 /*============ CARTE DE PRESTATION ===================*/
 .presta-card {
     position: relative;
@@ -399,12 +329,10 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     box-shadow: 0 4px 20px rgba(0,0,0,0.12); /*Ombre légère pour détacher la carte du fond*/
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-
 .presta-card:hover {
     transform: translateY(-6px); /*La carte monte au survol → effet interactif*/
     box-shadow: 0 16px 40px rgba(0,0,0,0.2);
 }
-
 .presta-card img {
     width: 100%;
     height: 100%;
@@ -412,11 +340,7 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     display: block;
     transition: transform 0.6s ease;
 }
-
 .presta-card:hover img { transform: scale(1.07); } /*L'image zoome très légèrement au survol de la carte*/
-
-
-
 /*=========== OVERLAY TEXTE SUR L'IMAGE ======================*/
 .presta-card::after { /*Crée un dégradé sombre en bas de l'image → rend le texte blanc lisible*/
     content: '';
@@ -424,7 +348,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     inset: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 50%, transparent 100%); /*Dégradé vertical : noir opaque en bas → transparent en haut*/
 }
-
 .presta-card-label {
     position: absolute;
     bottom: 0; left: 0; right: 0; /* +position absolute : Colle le texte en bas de la carte, par-dessus l'image*/
@@ -432,7 +355,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     padding: 28px 24px 24px;
     text-align: center;
 }
-
 .presta-card-label span {
     font-family: var(--font-display);
     font-weight: 400;
@@ -443,12 +365,9 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     transition: transform 0.3s ease; /*Anime le titre de la carte au survol*/
     display: inline-block;
 }
-
 .presta-card:hover .presta-card-label span { transform: translateY(-4px); }
-
 .presta-card-label em {
     display: block;
-    font-family: var(--font-body);
     font-style: normal;
     font-size: 10px;
     font-weight: 300;
@@ -460,15 +379,10 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     transform: translateY(6px);
     transition: all 0.3s ease 0.05s; /*Anime toutes les propriétés, avec un léger délai (0.05s) pour décaler l'animation par rapport au titre*/
 }
-
 .presta-card:hover .presta-card-label em {
     opacity: 1; 
     transform: translateY(0); /*Au survol, le sous-titre apparaît en glissant vers le haut */
 }
-
-
-
-
 /* ==================== TEMOIGNAGES ==================== */
 .temoignages {
     background: linear-gradient(160deg, #1a0e00 0%, #2e1b01 60%, #1a0e18 100%); /*Dégradé diagonal complexe avec 3 couleurs marron/noir*/
@@ -477,7 +391,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     position: relative;
     overflow: hidden;
 }
-
 /* Ambiance lumineuse derrière le téléphone */
 .temoignages::before {
     content: '';
@@ -488,12 +401,10 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     background: radial-gradient(circle, rgba(201,122,147,0.12) 0%, transparent 70%); /*radial gradient Crée un "halo" rose très subtil derrière le téléphone pour attirer l'œil*/ /* circle : Dégradé circulaire : rose transparent au centre → transparent vers les bords*/
     pointer-events: none; /*Empêche ce calque décoratif de bloquer les clics sur les éléments en dessous*/
 }
-
 .temoignages-header {
     text-align: center;
     margin-bottom: 56px;
 }
-
 .temoignages-header h2 {
     font-family: var(--font-display);
     font-weight: 400;
@@ -504,15 +415,12 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
 }
 
 .temoignages-header p {
-    font-family: var(--font-body);
     font-size: 10px;
     font-weight: 300;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: rgba(255,255,255,0.4);
 }
-
-
 /* ============ MOCKUP TÉLÉPHONE ================ */
 .phone-wrapper {
     display: flex;
@@ -520,7 +428,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     align-items: flex-start;
     position: relative;
 }
-
 .phone-mockup {
     width: 375px; /*Largeur standard d'un iPhone en portrait*/
     background: #000;
@@ -533,7 +440,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     position: relative;
     overflow: hidden; /*Cache ce qui dépasse (comme l'écran qui ne doit pas sortir des bords arrondis)*/
 }
-
 /* Encoches et boutons physiques du téléphone */
 .phone-notch { /*Rectangle arrondi noir centré en haut → simule l'encoche d'un iPhone*/
     position: absolute;
@@ -555,7 +461,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     border-radius: 50%;
     border: 2px solid #2a2a2a;
 }
-
 /* Boutons latéraux décoratifs */
 .phone-btn-vol {
     position: absolute;
@@ -572,7 +477,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     background: #3a3a3c;
     border-radius: 0 2px 2px 0;
 }
-
 /* Écran du téléphone */
 .phone-screen {
     background: #fff;
@@ -583,7 +487,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     display: flex;
     flex-direction: column; /*Empile les éléments de l'interface Instagram verticalement (barre haut → stories → feed → barre bas)*/
 }
-
 /* ---- BARRE INSTAGRAM EN HAUT ---- */
 .insta-topbar {
     background: #fff;
@@ -597,7 +500,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     top: 0;
     z-index: 5;
 }
-
 .insta-username {
     font-family: -apple-system, 'Segoe UI', sans-serif;
     font-weight: 700;
@@ -605,19 +507,16 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     color: #000;
     letter-spacing: -0.3px;
 }
-
 .insta-topbar-icons {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-
 .insta-topbar-icons i {
     font-size: 20px;
     color: #000;
     cursor: pointer;
 }
-
 /* ---- STORIES ---- */
 .insta-stories {
     display: flex;
@@ -629,7 +528,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     scrollbar-width: none; /*Cache la barre de scroll (esthétique) tout en gardant le scroll fonctionnel*/
 }
 .insta-stories::-webkit-scrollbar { display: none; }
-
 .story-item {
     display: flex;
     flex-direction: column;
@@ -638,7 +536,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     flex-shrink: 0; /*Empêche les éléments de rétrécir quand l'espace manque → chaque story garde sa taille*/
     cursor: pointer;
 }
-
 .story-avatar { 
     width: 56px; height: 56px;
     border-radius: 50%; /*Crée un cercle parfait (quand width = height)*/
@@ -648,7 +545,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     align-items: center;
     justify-content: center;
 }
-
 .story-avatar-inner {
     width: 100%; height: 100%;
     border-radius: 50%;
@@ -659,7 +555,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     justify-content: center;
     font-size: 20px;
 }
-
 .story-label {
     font-family: -apple-system, 'Segoe UI', sans-serif;
     font-size: 10px;
@@ -670,7 +565,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 /* ---- FEED INSTAGRAM (scrollable) ---- */
 .insta-feed {
     flex: 1;
@@ -679,12 +573,10 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     scrollbar-width: none;
 }
 .insta-feed::-webkit-scrollbar { display: none; }
-
 /* ---- Post Instagram (simplifié) ---- */
 .insta-post {
     border-bottom: 1px solid #efefef;
 }
-
 /* La zone image : carrée, cliquable */
 .post-image {
     width: 100%;
@@ -694,7 +586,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     overflow: hidden;
     background: #f0f0f0;
 }
-
 .post-image img {
     width: 100%;
     height: 100%;
@@ -702,11 +593,9 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     display: block;
     transition: transform 0.3s ease;
 }
-
 .post-image:hover img {
     transform: scale(1.03); /*Zoom très léger au survol → effet interactif subtil*/
 }
-
 /* Icône play qui apparaît au survol */
 .post-play {
     position: absolute;
@@ -716,13 +605,11 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     justify-content: center;
     background: rgba(0, 0, 0, 0.15);
     opacity: 0; /*L'icône play est invisible par défaut*/
-    transition: opacity 0.2s; /*Apparition/disparition en fondu doux/
+    transition: opacity 0.2s; /*Apparition/disparition en fondu doux*/
 }
-
 .post-image:hover .post-play {
     opacity: 1; /*Apparaît au survol de l'image → indique qu'il s'agit d'une vidéo*/
 }
-
 .post-play i {
     font-size: 20px;
     color: #fff;
@@ -735,7 +622,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     align-items: center;
     justify-content: center;
 }
-
 /* Boutons like / commentaire / partage / enregistrer */
 .post-actions {
     display: flex;
@@ -743,24 +629,20 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     justify-content: space-between;
     padding: 10px 14px 12px;
 }
-
 .post-actions-gauche {
     display: flex;
     gap: 14px;
     align-items: center;
 }
-
 .post-actions i {
     font-size: 22px;
     color: #262626;
     cursor: pointer;
     transition: color 0.15s, transform 0.15s;
 }
-
 .post-actions i:hover {
     transform: scale(1.15);
 }
-
 /* ---- BARRE DE NAV INSTAGRAM EN BAS ---- */
 .insta-navbar {
     background: #fff;
@@ -771,7 +653,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     padding: 10px 0 20px;
     flex-shrink: 0;
 }
-
 .insta-navbar i {
     font-size: 22px;
     color: #262626;
@@ -785,20 +666,15 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     background: #C97A93;
     border: 2px solid #000;
 }
-
 @media (max-width: 768px) {
     .phone-mockup { width: 320px; }
     .phone-screen { height: 600px; }
     .temoignages { padding: 70px 20px 80px; }
 }
-
 @media (max-width: 400px) {
     .phone-mockup { width: 290px; }
     .phone-screen { height: 560px; }
 }
-
-
-
 /* ==================== MODAL VIDÉO ==================== */
 .modal {
     display: none; /*La modal est cachée par défaut*/
@@ -811,20 +687,17 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     padding: 20px;
 }
 .modal.active { display: flex; } /*Quand JavaScript ajoute la classe active, elle apparaît en flex (pour centrer le contenu)*/
-
 .modal-content {
     position: relative;
     max-width: 420px;
     width: 95%;
 }
-
 #videoPlayer {
     width: 100%;
     border-radius: 10px;
     max-height: 80vh; /*La vidéo ne dépasse jamais 80% de la hauteur de l'écran → reste visible même sur petit écran*/
     display: block;
 }
-
 .modal-close {
     position: absolute;
     top: -42px; right: 0; /*Place la croix de fermeture juste AU-DESSUS de la vidéo*/
@@ -837,7 +710,6 @@ Crée un pseudo-élément avant le contenu de .hero (comme une couche supplémen
     line-height: 1;
 }
 .modal-close:hover { color: #fff; }
-
 /* ==================== FOOTER ==================== */
 footer {
     background: var(--bg);
@@ -845,7 +717,6 @@ footer {
     padding: 60px 40px 40px;
     text-align: center;
 }
-
 .footer-brand {
     font-family: var(--font-display);
     font-style: italic;
@@ -855,23 +726,19 @@ footer {
     margin-bottom: 28px;
     letter-spacing: 0.02em;
 }
-
 .footer-divider { /*Petite ligne rose décorative sous le nom de la marque*/
     width: 40px;
     height: 1px;
     background: var(--primary);
     margin: 0 auto 28px;
 }
-
 .footer-info {
     display: flex; /*Aligne l'icône et le texte sur la même ligne avec un espace entre eux 10px*/
     flex-direction: column;
     gap: 10px;
     margin-bottom: 36px;
 }
-
 .footer-info p {
-    font-family: var(--font-body);
     font-size: 0.85rem;
     font-weight: 300;
     color: var(--text-mid);
@@ -881,20 +748,16 @@ footer {
     justify-content: center; /*Centre le contenu de chaque paragraphe (icône + texte)*/
     gap: 10px;
 }
-
 .footer-info i { color: var(--primary); font-size: 0.8rem; width: 14px; }
 .footer-info a { color: var(--text-mid); transition: color 0.3s; }
 .footer-info a:hover { color: var(--primary); } /*Les liens deviennent roses au survol → feedback interactif*/
-
 .footer-copy {
-    font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 300;
     letter-spacing: 0.08em;
     color: rgba(85,85,85,0.5);
 }
 /* ==================== WHATSAPP FLOAT ==================== */
-
 .whatsapp-float{
     position: fixed;
     bottom: 20px;
@@ -922,27 +785,21 @@ footer {
 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .whatsapp-float img{
     width: 40px;
     height: 40px;
 }
-
 .whatsapp-text{
     white-space: nowrap;
 }
-
 .whatsapp-float:hover{
     transform: translateY(-3px);
     box-shadow: 0 14px 34px rgba(0,0,0,0.25);
 }
-
 @media (max-width:768px){
-
 .whatsapp-text{
     display:none;
 }
-
 .whatsapp-float{
     width:58px;
     height:58px;
@@ -950,38 +807,27 @@ footer {
     justify-content:center;
     border-radius:50%;
 }
-
 .whatsapp-float img{
     width:40px;
-}
-
-}
+}}
 @media (max-width: 480px) { footer { padding: 50px 24px 32px; } }
-
-
 /* ==================== ANIMATIONS ==================== */
-
 /* Animation respiration WhatsApp */
 @keyframes whatsapp-breath {
-
 0% {
     transform: scale(1);
 }
-
 50% {
     transform: scale(1.06);
 }
-
 100% {
     transform: scale(1);
 }
-
 }
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to   { opacity: 1; transform: translateY(0); }
 }
-
 .reveal { /*Élément invisible et légèrement décalé vers le bas*/
     opacity: 0;
     transform: translateY(28px);
@@ -992,22 +838,18 @@ footer {
     transform: translateY(0);
 }
 /*Combiné avec JavaScript (IntersectionObserver), ça crée un effet d'apparition fluide quand l'utilisateur scrolle.*/
-
 </style>
 </head>
 <body>
-
 <?php include "nav_menu.php"; ?>
-
 <div class="nav-mobile" id="mobileNav">
     <button class="nav-mobile-close" onclick="document.getElementById('mobileNav').classList.remove('open')">&times;</button>
     <a href="#" onclick="document.getElementById('mobileNav').classList.remove('open')">Accueil</a>
     <a href="#prestations" onclick="document.getElementById('mobileNav').classList.remove('open')">Prestations</a>
     <a href="#temoignages" onclick="document.getElementById('mobileNav').classList.remove('open')">Témoignages</a>
     <a href="#contact" onclick="document.getElementById('mobileNav').classList.remove('open')">Contact</a>
-    <a href="https://www.planity.com/nd-beauty-concept-69100-villeurbanne" target="_blank" style="color:var(--primary)">Réserver</a>
+    <a href="https://www.planity.com/nd-beauty-concept-69100-villeurbanne" target="_blank" rel="noopener" style="color:var(--primary)">Réserver</a>
 </div>
-
 <!-- ========== HERO ========== -->
 <header class="hero">
     <div class="hero-content">
@@ -1018,13 +860,11 @@ footer {
             target="_blank">Réservez un soin
         </a>
     </div>
-
     <div class="hero-scroll">
         <span>Découvrir</span>
         <i class="fa-solid fa-chevron-down"></i>
     </div>
 </header>
-
 <!-- ========== BIENVENUE ========== -->
 <section class="bienvenue reveal">
     <span class="section-label">Notre philosophie</span>
@@ -1034,7 +874,6 @@ footer {
     <p>Chaque rituel est une invitation à ralentir, à relâcher les tensions et à se reconnecter à soi, dans un cadre apaisant et enveloppant.</p>
     <p>Mes soins s'inspirent de techniques ancestrales venues du Japon et d'Asie, enrichies par une écoute attentive du corps et de l'énergie de chaque personne.</p>
 </section>
-
 <!-- ========== PRESTATIONS ========== -->
 <section class="prestations reveal" id="prestations">
     <div class="prestations-header">
@@ -1043,60 +882,53 @@ footer {
     </div>
     <div class="presta-grid">
         <a href="hair-play.php" class="presta-card">
-            <img src="images/2026-03-06 155406.webp" alt="Hair Play">
+            <img loading="lazy" src="images/2026-03-06 155406.webp" alt="Soin Hair Play à Lyon">
             <div class="presta-card-label"><span>Hair Play</span><em>Découvrir le soin</em></div>
         </a>
         <a href="cryo-capillaire.php" class="presta-card">
-            <img src="images/IMG-20260306-WA0026.webp" alt="Cryothérapie Capillaire">
+            <img loading="lazy" src="images/IMG-20260306-WA0026.webp" alt="Cryothérapie Capillaire soin cheveux à Lyon">
             <div class="presta-card-label"><span>Cryothérapie Capillaire</span><em>Découvrir le soin</em></div>
         </a>
         <a href="head-spa.php" class="presta-card">
-            <img src="images/6f5g588rpo.webp" alt="Head Spa">
+            <img loading="lazy" src="images/6f5g588rpo.webp" alt="Soin Head Spa à Lyon">
             <div class="presta-card-label"><span>Head Spa</span><em>Découvrir le soin</em></div>
         </a>
         <a href="kobido.php" class="presta-card">
-            <img src="images/5de2g1e5e.webp" alt="Kobido">
+            <img loading="lazy" src="images/5de2g1e5e.webp" alt="Soin Kobido à Lyon">
             <div class="presta-card-label"><span>Kobido</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-intuitif.php" class="presta-card">
-            <img src="images/2q6d2g3e88.webp" alt="Massage Intuitif">
+            <img loading="lazy" src="images/2q6d2g3e88.webp" alt="Massage Intuitif à Lyon">
             <div class="presta-card-label"><span>Massage Intuitif</span><em>Découvrir le soin</em></div>
         </a>
         <a href="massage-signature.php" class="presta-card">
-            <img src="images/p5e6r6sg1.webp" alt="Massage Signature">
+            <img loading="lazy" src="images/p5e6r6sg1.webp" alt="Massage Signature à Lyon">
             <div class="presta-card-label"><span>Massage Signature</span><em>Découvrir le soin</em></div>
         </a>
     </div>
 </section>
-
 <!-- ========== TÉMOIGNAGES ========== -->
 <section class="temoignages" id="temoignages">
-
     <div class="temoignages-header reveal">
         <h2>Les témoignages de nos clientes</h2>
         <p>Retrouvez-nous sur Instagram</p>
     </div>
-
     <!-- MOCKUP TÉLÉPHONE -->
     <div class="phone-wrapper reveal">
         <div class="phone-mockup">
-
             <!-- Boutons physiques décoratifs -->
             <div class="phone-btn-vol"></div>
             <div class="phone-btn-power"></div>
-
             <!-- Écran -->
             <div class="phone-screen">
-
                 <!-- Barre du haut Instagram -->
                 <div class="insta-topbar">
                     <span class="insta-username">headspalyon_byf</span>
                     <div class="insta-topbar-icons">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-regular fa-paper-plane"></i>
+                        <i class="fa-regular fa-heart" aria-label = "Like"></i>
+                        <i class="fa-regular fa-paper-plane" aria-label="Envoyer le message"></i>
                     </div>
                 </div>
-
                 <!-- Stories -->
                 <div class="insta-stories">
                     <div class="story-item">
@@ -1124,18 +956,13 @@ footer {
                         <span class="story-label">Massage</span>
                     </div>
                 </div>
-
                 <!-- Feed : les posts sont injectés par script.js -->
                 <div class="insta-feed" id="grid"></div>
-
             </div><!-- /phone-screen -->
-
             <!-- Encoche dynamique (se place par-dessus l'écran) -->
             <div class="phone-notch"></div>
-
         </div><!-- /phone-mockup -->
     </div><!-- /phone-wrapper -->
-
     <!-- Lien Instagram sous le téléphone -->
     <div style="text-align:center; margin-top:36px;">
         <a href="https://www.instagram.com/headspalyon_byf" target="_blank"
@@ -1144,11 +971,10 @@ footer {
                   letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.65);
                   border:1px solid rgba(255,255,255,0.2); padding:12px 28px; border-radius:30px;
                   transition:all 0.3s ease;">
-            <i class="fa-brands fa-instagram" style="font-size:16px;"></i>
+            <i class="fa-brands fa-instagram" style="font-size:16px;" aria-label="Voir Instagram"></i>
             Suivre sur Instagram
         </a>
     </div>
-
     <!-- Modal vidéo -->
     <div class="modal" id="modal">
         <div class="modal-content">
@@ -1156,44 +982,33 @@ footer {
             <video id="videoPlayer" controls></video>
         </div>
     </div>
-
 </section>
-
 <!-- ========== FOOTER ========== -->
 <footer id="contact">
     <div class="footer-brand">Head Spa Lyon By F.</div>
     <div class="footer-divider"></div>
     <div class="footer-info">
-        <p><i class="fa-solid fa-location-dot"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
+        <p><i class="fa-solid fa-location-dot" aria-label="Voir la localisation"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
     </div>
     <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
 </footer>
-
 <!-- ========== WHATSAPP FLOAT ========== -->
-
 <a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
    class="whatsapp-float"
    target="_blank"
    aria-label="Contact WhatsApp">
-
-    <img src="images/10_29_00.webp" alt="WhatsApp">
-
+    <img loading="lazy" src="images/10_29_00.webp" alt="logo WhatsApp pour écrire un message">
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
     </span>
-
 </a>
-
 <!-- ========== SCRIPTS ========== -->
-
 <!-- 1. Scroll reveal (pas de conflit, n'utilise pas modal/videoPlayer/closeBtn) -->
 <script>
     const reveals = document.querySelectorAll('.reveal');
 //méthode qui cherche TOUS les éléments ayant la classe .reveal dans la page et les retourne sous forme de NodeList (comme un tableau)
-
     const revealObserver = new IntersectionObserver((entries) => { //(entries) = Fonction callback : une fonction qui sera automatiquement appelée par le navigateur à chaque fois qu'un élément observé change de visibilité. entries = liste des changements détectés. 
-    //Crée un observateur : un outil moderne du navigateur qui surveille quand des éléments entrent ou sortent de l'écran (viewport).
-        
+    //Crée un observateur : un outil moderne du navigateur qui surveille quand des éléments entrent ou sortent de l'écran (viewport).      
     //fonction callback : traiter chaque élément détecté
             entries.forEach(e => { //parcours chaque entrée (e) dans la liste des changements
             //e= un objet "Entry" qui contient des infos sur un éléments observé (est il visible, a quel pourcentage ?)
@@ -1205,15 +1020,10 @@ footer {
         });
     }, { threshold: 0.12 }); //	
 //Options de configuration : threshold: 0.12 signifie "déclenche la callback quand 12% de l'élément est visible dans l'écran".
-    
-
-
     //foreach Parcourt chaque élément r dans la liste reveals (les éléments avec la classe .reveal).
     reveals.forEach(r => revealObserver.observe(r)); //Dit à l'observateur : "Surveille cet élément r !". À partir de maintenant, le navigateur va automatiquement appeler la callback quand r entre/sort de l'écran.
 </script>
-
 <!-- 2. script.js gère TOUT le reste : création des cartes vidéo + ouverture/fermeture modal -->
 <script src="js/script.js"></script>
-
 </body>
 </html>

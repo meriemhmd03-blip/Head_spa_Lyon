@@ -559,7 +559,7 @@ footer {
         <p>Chaque séance est entièrement adaptée à votre corps, votre état émotionnel et vos besoins du jour. Le Massage Signature est avant tout une promesse : celle d'un soin dont vous ressortirez transformée.</p>
     </div>
     <div class="section-image">
-        <img src="images/pexels-jonathanborba-19641826.webp" alt="Technique du Massage Signature">
+        <img loading="lazy" src="images/pexels-jonathanborba-19641826.webp" alt="Technique du Massage Signature">
     </div>
 </section>
 
@@ -567,7 +567,7 @@ footer {
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img src="images/istockphoto-2166589316-1024x1024.webp" alt="Résultats du Massage Signature">
+            <img loading="lazy" src="images/istockphoto-2166589316-1024x1024.webp" alt="Résultats du Massage Signature">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -649,7 +649,7 @@ footer {
    target="_blank"
    aria-label="Contact WhatsApp">
 
-    <img src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
 
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
