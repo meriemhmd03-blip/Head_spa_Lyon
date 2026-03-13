@@ -4,11 +4,9 @@
 //---------mysql = type de BDD
 //---------host = machine (localhost = ton ordinateur)
 //---------dbname = nom de la base de données
-
 $dsn = "mysql:host=localhost;dbname=head_spa;";
 $user = "root";
 $pwd = '';
-
 //---------
 //try = essayer de se connecter
 //catch = si ça marche pas, afficher un message d'erreur

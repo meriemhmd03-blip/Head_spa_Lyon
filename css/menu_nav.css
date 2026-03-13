@@ -1,9 +1,7 @@
 /* ==================== nav_menu.css ==================== */
 /* Style de la navigation — Head Spa Lyon By F.           */
 /* Polices : Cormorant Garamond (logo) + Raleway (liens)  */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Raleway:wght@300;400&display=swap');
-
 /* ---- Variables (identiques à index.php) ---- */
 :root {
     --primary:      #C97A93;
@@ -12,11 +10,9 @@
     --bg:           #FAF7F2;
     --nav-height:   80px;
 }
-
 /* ---- Reset de base ---- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 a { text-decoration: none; color: inherit; }
-
 /* ==================== BARRE DE NAV ==================== */
 .main-nav {
     position: fixed;
@@ -28,7 +24,6 @@ a { text-decoration: none; color: inherit; }
     border-bottom: 1px solid rgba(90, 58, 46, 0.1);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
 }
-
 /* Quand la nav est sur le hero (transparente) :
    dans index.php la nav est position: absolute donc ce style
    ne s'applique que sur les pages internes où elle est fixed */
@@ -42,7 +37,6 @@ a { text-decoration: none; color: inherit; }
     justify-content: space-between;
     padding: 0 40px;
 }
-
 /* ==================== LOGO ==================== */
 .nav-logo img {
     height: 55px;
@@ -50,11 +44,9 @@ a { text-decoration: none; color: inherit; }
     transition: transform 0.3s ease;
     display: block;
 }
-
 .nav-logo:hover img {
     transform: scale(1.04);
 }
-
 /* ==================== LIENS DE NAV (centre) ==================== */
 .nav-menu {
     list-style: none;
@@ -62,7 +54,6 @@ a { text-decoration: none; color: inherit; }
     align-items: center;
     gap: 36px;
 }
-
 .nav-menu > li > a {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -74,7 +65,6 @@ a { text-decoration: none; color: inherit; }
     padding: 4px 0;
     position: relative;
 }
-
 /* Trait fin sous le lien au survol */
 .nav-menu > li > a::after {
     content: '';
@@ -84,15 +74,12 @@ a { text-decoration: none; color: inherit; }
     background: var(--primary);
     transition: width 0.3s ease;
 }
-
 .nav-menu > li > a:hover { color: var(--accent); }
 .nav-menu > li > a:hover::after { width: 100%; }
-
 /* ==================== MENU DÉROULANT ==================== */
 .menu-deroulant {
     position: relative;
 }
-
 /* Flèche discrète */
 .menu-deroulant > a::before {
     content: '▾';
@@ -100,7 +87,6 @@ a { text-decoration: none; color: inherit; }
     font-size: 9px;
     opacity: 0.5;
 }
-
 .sous-menu {
     display: none;
     position: absolute;
@@ -114,12 +100,10 @@ a { text-decoration: none; color: inherit; }
     min-width: 210px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
     border: 1px solid rgba(90, 58, 46, 0.08);
-
     /* Le sous-menu commence dès top:100% donc il n'y a plus de vide */
     /* Le padding-top de 20px repousse le contenu vers le bas visuellement */
     margin-top: 0;
 }
-
 /* Petit triangle au-dessus du sous-menu */
 .sous-menu::before {
     content: '';
@@ -132,7 +116,6 @@ a { text-decoration: none; color: inherit; }
     border-top: 1px solid rgba(90, 58, 46, 0.08);
     rotate: 45deg;
 }
-
 .sous-menu li a {
     display: block;
     padding: 10px 22px;
@@ -143,18 +126,15 @@ a { text-decoration: none; color: inherit; }
     color: #444;
     transition: all 0.2s ease;
 }
-
 .sous-menu li a:hover {
     color: var(--primary);
     padding-left: 28px;
     background: rgba(201, 122, 147, 0.05);
 }
-
 /* S'ouvre au survol sur desktop */
 .menu-deroulant:hover .sous-menu {
     display: block;
 }
-
 /* ==================== DROITE : Instagram + Réserver + Burger ==================== */
 .nav-right {
     display: flex;
@@ -162,28 +142,23 @@ a { text-decoration: none; color: inherit; }
     gap: 16px;
 }
 /*lien whatsapp*/
-
 .nav-whatsapp {
     display: flex;
     align-items: center;
-   
 
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-
     color: #555;
     transition: color 0.3s;
 }
-
 .nav-whatsapp img {
     height: 35px;
     width: auto;
     display: block;
 }
-
 .nav-whatsapp:hover {
     color: var(--primary);
 }
@@ -200,15 +175,12 @@ a { text-decoration: none; color: inherit; }
     color: #555;
     transition: color 0.3s;
 }
-
 .nav-instagram img {
     height: 20px;
     width: auto;
     display: block;
 }
-
 .nav-instagram:hover { color: var(--primary); }
-
 /* Bouton Réserver */
 .nav-btn-reserver {
     font-family: 'Raleway', sans-serif;
@@ -223,12 +195,10 @@ a { text-decoration: none; color: inherit; }
     transition: background 0.3s, transform 0.3s;
     white-space: nowrap;
 }
-
 .nav-btn-reserver:hover {
     background: var(--primary-dark);
     transform: translateY(-2px);
 }
-
 /* ==================== BURGER (mobile) ==================== */
 .burger {
     display: none;
@@ -241,7 +211,6 @@ a { text-decoration: none; color: inherit; }
     padding: 4px;
     width: 32px;
 }
-
 .burger span {
     display: block;
     width: 22px;
@@ -250,7 +219,6 @@ a { text-decoration: none; color: inherit; }
     border-radius: 2px;
     transition: all 0.3s ease;
 }
-
 /* ==================== OVERLAY MENU MOBILE ==================== */
 .nav-mobile-overlay {
     display: none;
@@ -263,20 +231,16 @@ a { text-decoration: none; color: inherit; }
     justify-content: center;
     gap: 0;
 }
-
 .nav-mobile-overlay.open {
     display: flex;
 }
-
 .nav-mobile-overlay ul {
     list-style: none;
     text-align: center;
 }
-
 .nav-mobile-overlay ul li {
     margin: 10px 0;
 }
-
 .nav-mobile-overlay ul li a {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -288,11 +252,9 @@ a { text-decoration: none; color: inherit; }
     display: block;
     padding: 8px 0;
 }
-
 .nav-mobile-overlay ul li a:hover {
     color: #fff;
 }
-
 /* Sous-liens prestations en mobile : légèrement en retrait */
 .sous-menu-mobile a {
     font-size: 11px !important;
@@ -300,11 +262,9 @@ a { text-decoration: none; color: inherit; }
     color: rgba(255, 255, 255, 0.5) !important;
     padding: 5px 0 !important;
 }
-
 .sous-menu-mobile a:hover {
     color: var(--primary) !important;
 }
-
 /* Bouton fermer le menu mobile */
 .nav-mobile-close {
     position: absolute;
@@ -317,30 +277,22 @@ a { text-decoration: none; color: inherit; }
     line-height: 1;
     transition: color 0.2s;
 }
-
 .nav-mobile-close:hover { color: #fff; }
-
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 1024px) {
   
     .nav-menu { gap: 24px; }
 }
-
 @media (max-width: 768px) {
     .nav-menu        { display: none; }
     .nav-btn-reserver { display: none; }
     .burger          { display: flex; }
-
     .nav-container { padding: 0 20px; }
-
     .nav-logo img { height: 46px; }
 }
-
 @media (max-width: 480px) {
     .nav-logo img { height: 40px; }
 }
-
 /* ==================== DÉCALAGE BODY (pour éviter que le contenu passe sous la nav) ==================== */
 /* Ajoute cette règle dans chaque page qui utilise la nav FIXE (pas index.php) :
-   body { padding-top: var(--nav-height); }
-*/
+   body { padding-top: var(--nav-height); }*/
