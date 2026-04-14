@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Fadoua | Praticienne Head Spa à Villeurbanne (Lyon)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fadoua | Praticienne Head Spa à Villeurbanne (Lyon)</title>
 
     <!-- Polices identiques à tout le site -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp" width="721" height="719">
     <link rel="stylesheet" href="css/quisuisje.css">
 </head>
 <body>
@@ -44,7 +44,7 @@
         <p>Je n'ai pas eu l'opportunité d'enfanter. Alors j'ai créé un lieu.</p>
     </div>
     <div class="section-image">
-        <img loading="lazy" src="images/23fs2fdg2z.webp" alt="L'espace de soin">
+        <img loading="lazy" src="images/23fs2fdg2z.webp" alt="L'espace de soin" width="1200" height="1600">
     </div>
 </section>
 <!-- ========== FORMATIONS ========== -->
@@ -57,7 +57,7 @@
         <p>Le massage intuitif, en cercle de femmes, guidées par Océane Chavanel.</p>
     </div>
     <div class="section-image">
-        <img loading="lazy" src="images/3s2f3d65dg4.webp" alt="Certifications">
+        <img loading="lazy" src="images/3s2f3d65dg4.webp" alt="Certifications" width="1200" height="1600">
     </div>
 </section>
 <!-- ========== AMBIANCE ========== -->
@@ -74,7 +74,7 @@
         <div class="rituels-grid">
             <!-- Photo à gauche -->
             <div class="rituels-photo">
-                <img loading="lazy" src="images/20260306_160842.webp" alt="Head Spa japonais">
+                <img loading="lazy" src="images/20260316_135020_Instagram.webp" alt="Head Spa japonais" width="1080" height="1724">
             </div>
             <!-- Cartes rituels à droite -->
             <div class="rituel-card">
@@ -95,8 +95,8 @@
 </section>
 <!-- ========== DIFFÉRENCE ========== -->
 <section class="section-duo fade">
-    <div class="section-image">
-        <img loading="lazy" src="images/2154dgf45dg5.webp" alt="Écoute et présence">
+    <div class="rituels-photo">
+        <img loading="lazy" src="images/2154dgf45dg5.webp" alt="Écoute et présence" width="1200" height="1600">
     </div>
     <div class="section-text">
         <span class="section-label">Ma promesse</span>
@@ -114,15 +114,21 @@
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot" aria-label ="Voir la localisation"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
     </div>
-    <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
+    <p class="footer-copy">Copyright &copy; 2026 Head Spa Lyon By F.</p>
+    <a class="footer-lien"
+       href="https://wa.me/33761525227?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20services%20de%20cr%C3%A9ation%20de%20site%20web."
+       target="_blank"
+       rel="noopener"
+       aria-label="Nous contacter sur WhatsApp">
+        Site réalisé par <span class="underline">CodeWithMeriem</span></a>
 </footer>
 <!-- ========== WHATSAPP FLOAT ========== -->
-<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20prestations."
    class="whatsapp-float"
    target="_blank"
    rel="noopener"
    aria-label="Contacter sur WhatsApp">
-    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp" width="1024" height="1024">
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
     </span>

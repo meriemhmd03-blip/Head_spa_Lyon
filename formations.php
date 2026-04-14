@@ -1,15 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Formation Head Spa en ligne certifiante - Apprenez le protocole japonais professionnel à votre rythme">
+
 <meta name="robots" content="index, follow">
 <title>Formation Head Spa en ligne | Apprendre le Head Spa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+<link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp" width="721" height="719">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="css/formations.css">
+<link rel="stylesheet" href="css/formation.css">
 </head>
 <body>
 <!-- ========== NAVIGATION ========== -->
@@ -46,7 +47,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </div>
 </div>
 <div class="philosophie-image">
-<img loading="lazy" src="images/23ergh1ert4.webp" alt="Rituel Head Spa - Massage du cuir chevelu" loading="lazy">
+<img loading="lazy" src="images/23ergh1ert4.webp" alt="Rituel Head Spa - Massage du cuir chevelu" loading="lazy" width="1024" height="576">
 </div>
 </div>
 </div>
@@ -69,7 +70,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </div>
 </div>
 <div class="formation-image">
-<img loading="lazy" src="images/24ezg4erg.webp" alt="Formation Head Spa en ligne sur ordinateur" loading="lazy">
+<img loading="lazy" src="images/24ezg4erg.webp" alt="Formation Head Spa en ligne sur ordinateur" loading="lazy" width="1024" height="1024">
 </div>
 </div>
 </div>
@@ -88,7 +89,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <span class="module-num">01</span>
 <div class="module-title-wrap">
 <h3>Initiation au Shiatsu Head Spa</h3>
-<span class="module-duree">Durée : 2h</span>
+<span class="module-duree">Durée : 3h</span>
 </div>
 <button class="module-toggle" aria-label="Développer le module"><i class="fa-solid fa-chevron-down"></i></button>
 </div>
@@ -107,7 +108,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <span class="module-num">02</span>
 <div class="module-title-wrap">
 <h3>Cadre professionnel</h3>
-<span class="module-duree">Durée : 1h30</span>
+<span class="module-duree">Durée : 2h</span>
 </div>
 <button class="module-toggle" aria-label="Développer le module"><i class="fa-solid fa-chevron-down"></i></button>
 </div>
@@ -125,7 +126,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <span class="module-num">03</span>
 <div class="module-title-wrap">
 <h3>Origines & Concept du Head Spa</h3>
-<span class="module-duree">Durée : 1h</span>
+<span class="module-duree">Durée : 1h30</span>
 </div>
 <button class="module-toggle" aria-label="Développer le module"><i class="fa-solid fa-chevron-down" aria-label="Afficher plus"></i></button>
 </div>
@@ -162,7 +163,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <span class="module-num">05</span>
 <div class="module-title-wrap">
 <h3>Structure d'un soin Head Spa</h3>
-<span class="module-duree">Durée : 2h</span>
+<span class="module-duree">Durée : 2h30</span>
 </div>
 <button class="module-toggle" aria-label="Développer le module"><i class="fa-solid fa-chevron-down" ></i></button>
 </div>
@@ -181,17 +182,17 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <div class="programme-resume">
 <div class="resume-item">
 <i class="fa-solid fa-video" aria-label="Vidéos HD"></i>
-<h4>30+ vidéos HD</h4>
+<h4>Vidéos HD</h4>
 <p>Accès illimité à vie</p>
 </div>
 <div class="resume-item">
-<i class="fa-solid fa-book" aria-label="Pages PDF"></i>
-<h4>150+ pages PDF</h4>
-<p>Téléchargeables</p>
+<i class="fa-solid fa-mobile-screen" aria-label="Accès mobile"></i>
+<h4>Accès mobile</h4>
+<p>Apprenez où que vous soyez</p>
 </div>
 <div class="resume-item">
 <i class="fa-regular fa-clock" aria-label="Durée de contenu"></i>
-<h4>8h de contenu</h4>
+<h4>10h de contenu</h4>
 <p>À votre rythme</p>
 </div>
 <div class="resume-item">
@@ -314,32 +315,49 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <div class="slider-wrapper">
 <div class="slider-track" id="sliderTrack" role="list">
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/a9f83j4k2l.webp" alt="Dilek - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/a9f83j4k2l.webp" alt="Dilek - Élève certifiée Head Spa" loading="lazy" width="1200" height="1280">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Dilek</h3><p>« Cette formation a transformé ma pratique. Mes clientes adorent le Head Spa ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/d8k2p0s9x3.webp" alt="Léane - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/d8k2p0s9x3.webp" alt="Léane - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Léane</h3><p>« Un vrai plus pour mon institut. Positionnement premium immédiat ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/z7h2f4l1a6.webp" alt="Michelle - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/z7h2f4l1a6.webp" alt="Michelle - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Michelle</h3><p>« Méthode claire et professionnelle. J'ai intégré le Head Spa en 2 semaines ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/q3m8v1k7t2.webp" alt="Françoise - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/q3m8v1k7t2.webp" alt="Françoise - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Françoise</h3><p>« Mes clients reviennent spécialement pour le Head Spa. Une vraie différenciation ! »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/x6p2d9f4s1.webp" alt="Justine - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/x6p2d9f4s1.webp" alt="Justine - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Justine</h3><p>« Grâce à cette formation, j'ai créé un service à forte valeur ajoutée. »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/n4h7z8c2w5.webp" alt="Rose-Marie - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/n4h7z8c2w5.webp" alt="Rose-Marie - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Rose-Marie</h3><p>« Le Head Spa s'intègre naturellement dans ma pratique. »</p></div>
 </div>
 <div class="eleve-card" role="listitem">
-<div class="eleve-img"><img loading="lazy" src="images/t8f1v6n3k0.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy"><div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-img"><img loading="lazy" src="images/t8f1v6n3k0.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy" width="1200" height="1600">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
 <div class="eleve-info"><h3>Angélique</h3><p>« Les explications sont simples et concrètes. J'ai appliqué le protocole dès la semaine suivante. »</p></div>
+</div>
+<div class="eleve-card" role="listitem">
+<div class="eleve-img"><img loading="lazy" src="images/22595.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy" width="1536" height="2048">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-info"><h3>Emmanuelle</h3><p>«  Un vrai plus dans mon institut, je me démarque clairement. »</p></div>
+</div>
+<div class="eleve-card" role="listitem">
+<div class="eleve-img"><img loading="lazy" src="images/22569.webp" alt="Angélique - Élève certifiée Head Spa" loading="lazy" width="1536" height="2048">
+<div class="eleve-img-overlay"><i class="fa-solid fa-certificate" aria-label="Certificat"></i></div></div>
+<div class="eleve-info"><h3>Elodie & Pauline </h3><p>« Cette formation a clairement fait évoluer notre business. »</p></div>
 </div>
 </div>
 <div class="slider-btns">
@@ -360,17 +378,18 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <div class="tarif-card">
 <div class="tarif-top">
 <h3>Formation Complète</h3>
-<div class="tarif-prix"><span>€</span>297</div>
+<div class="tarif-prix"><span>€</span>350</div>
 <div class="tarif-periode">Accès à vie</div>
 </div>
 <div class="tarif-body">
 <ul class="tarif-features">
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> 5 modules complets</li>
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> 30+ vidéos HD illimitées</li>
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> 150+ pages PDF téléchargeables</li>
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Quiz d'évaluation</li>
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Attestation de formation</li>
-<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Accès à la communauté</li>
+<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> 5 Modules d'Expertise : Un parcours complet, de la théorie scientifique à la maîtrise du geste.</li>
+<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> 10 Heures de Formation Intensive :
+<br>-Théorie (8h) : Une immersion profonde illustrée par des schémas anatomiques exclusifs.
+<br>-Pratique (2h) : Démonstrations pas-à-pas en conditions réelles sur modèle.</li>
+<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Accès Illimité à Vie : Apprenez à votre rythme et revenez sur les modules dès que vous en avez besoin.</li>
+<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Exercices pratiques pour consolider vos connaissances.</li>
+<li><i class="fa-solid fa-circle-check" aria-label="Vérification"></i> Certification de Réussite : Une attestation de formation pour valoriser votre nouvelle expertise.</li>
 </ul>
 <button class="btn js-open-modal">Accéder à la formation</button>
 </div>
@@ -387,10 +406,10 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </div>
 <div class="contact-grid">
 <div class="contact-card">
-<i class="fa-solid fa-phone" aria-label="Téléphone"></i>
+<i class="fa-brands fa-whatsapp" aria-label="WhatsApp"></i>
 <div>
-<h4>Téléphone</h4>
-<p>07 72 29 37 48</p>
+ <h4>Téléphone</h4>
+<p><a href="https://wa.me/33772293748">07 72 29 37 48</a></p>
 </div>
 </div>
 <div class="contact-card">
@@ -408,7 +427,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <div class="container">
 <div class="cta-inner fade">
 <h2>Prête à maîtriser<br><em>le Head Spa ?</em></h2>
-<p>Accès immédiat · Paiement sécurisé · Sans engagement</p>
+<p>Accès immédiat · Paiement sécurisé </p>
 <button class="btn js-open-modal">Accéder à la formation</button>
 </div>
 </div>
@@ -437,13 +456,19 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 </ul>
 </div>
 </div>
-<div class="footer-bottom">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés</div>
-</div>
+<div class="footer-bottom">Copyright &copy; 2026 Head Spa Lyon By F.
+<a class="footer-lien"
+       href="https://wa.me/33761525227?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20services%20de%20cr%C3%A9ation%20de%20site%20web."
+       target="_blank"
+       rel="noopener"
+       aria-label="Nous contacter sur WhatsApp">
+        Site réalisé par <span class="underline">CodeWithMeriem</span></a>
+    </div>
 </footer>
 <!-- ========== WHATSAPP FLOAT ========== -->
-<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20votre%20formation%20de%20Head%C3%A9Spa."
    class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
-    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="WhatsApp" width="1024" height="1024">
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
     </span>
@@ -490,7 +515,7 @@ Maîtrisez un protocole Head Spa professionnel, à votre rythme
 <label for="cgu">J'accepte les <a href="#">conditions générales</a> *</label>
 </div>
 <button type="submit" class="btn" style="width:100%; text-align:center;">Procéder au paiement</button>
-<p class="modal-secure"><i class="fa-solid fa-lock" aria-label="Sécurité"></i> Paiement sécurisé · Sans engagement</p>
+<p class="modal-secure"><i class="fa-solid fa-lock" aria-label="Sécurité"></i> Paiement sécurisé </p>
 </form>
 </div>
 </div>

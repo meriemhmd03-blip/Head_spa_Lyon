@@ -301,6 +301,14 @@ footer {
     letter-spacing: 0.08em;
     color: rgba(85,85,85,0.5);
 }
+.footer-lien {font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.5);}
+
+    .underline {
+  text-decoration: underline;
+}
 /* ==================== WHATSAPP FLOAT ==================== */
 .whatsapp-float{
     position: fixed;

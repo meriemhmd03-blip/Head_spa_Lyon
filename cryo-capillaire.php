@@ -2,11 +2,11 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Cryothérapie capillaire à Lyon | Soin cheveux Head Spa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cryothérapie capillaire à Lyon | Soin cheveux Head Spa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp" width="721" height="719">
     <link rel="stylesheet" href="css/cryo.css">
 </head>
 <body>
@@ -39,14 +39,14 @@
         <p>La stimulation répétée par le froid favorise la croissance et la résistance des cheveux, tout en préparant le cuir chevelu à mieux recevoir les soins complémentaires.</p>
     </div>
     <div class="section-image">
-        <img loading="lazy" src="images/IMG_2610.webp" alt="cryothérapie capillaire soin cheveux à Lyon" >
+        <img loading="lazy" src="images/IMG_2610.webp" alt="cryothérapie capillaire soin cheveux à Lyon" width="4284" height="5712" >
     </div>
 </section>
 <!-- ========== RÉSULTATS ========== -->
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img loading="lazy" src="images/IMG-20260306-WA0026.webp" alt="Résultat cryothérapie capillaire soin cheveux à Lyon" >
+            <img loading="lazy" src="images/IMG-20260306-WA0026.webp" alt="Résultat cryothérapie capillaire soin cheveux à Lyon" width="1536" height="2048" >
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -108,15 +108,21 @@
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
     </div>
-    <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
+    <p class="footer-copy">Copyright &copy; 2026 Head Spa Lyon By F.</p>
+    <a class="footer-lien"
+       href="https://wa.me/33761525227?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20services%20de%20cr%C3%A9ation%20de%20site%20web."
+       target="_blank"
+       rel="noopener"
+       aria-label="Nous contacter sur WhatsApp">
+        Site réalisé par <span class="underline">CodeWithMeriem</span></a>
 </footer>
 <!-- ========== WHATSAPP FLOAT ========== -->
-<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20prestations."
    class="whatsapp-float"
    target="_blank"
    rel="noopener"
    aria-label="Contact WhatsApp">
-    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp" width="1024" height="1024">
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
     </span>

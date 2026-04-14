@@ -4,7 +4,7 @@
     <div class="nav-container">
         <!-- Logo à gauche -->
         <a href="index.php" class="nav-logo">
-            <img loading="lazy" src="images/6z9f45s3fdf.webp" alt="Logo Head Spa Lyon By F. à Lyon">
+            <img loading="lazy" src="images/6z9f45s3fdf.webp" alt="Logo Head Spa Lyon By F. à Lyon" width="721" height="719">
         </a>
         <!-- Liens de navigation (centre) -->
         <ul class="nav-menu" id="navMenu">
@@ -27,14 +27,9 @@
         </ul>
         <!-- Droite : Instagram + bouton réserver + burger -->
         <div class="nav-right">
-            <!-- Bouton WhatsApp -->
-            <a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations" rel="noopener" target="_blank" class="nav-whatsapp">
-                <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp">
-                <span>Contactez-nous</span>
-            </a>
             <!-- Lien Instagram -->
             <a href="https://www.instagram.com/head_spa_lyon" target="_blank" class="nav-instagram">
-                <img loading="lazy" src="images/5d2g1g5z.webp" alt="Lien Instagram du Head Spa à Lyon">
+                <img loading="lazy" src="images/5d2g1g5z.webp" alt="Lien Instagram du Head Spa à Lyon" width="512" height="512">
                 <span>Suivez-nous</span>
             </a>
             <!-- Bouton réserver -->
@@ -43,6 +38,9 @@
             </a>
             <!-- Burger (mobile uniquement) -->
             <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
     </div>

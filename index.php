@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Head Spa à Lyon | Cryothérapie capillaire, Kobido, Massage, Head Spa, Hair Play, Formation en ligne">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Head Spa à Lyon | Cryothérapie capillaire, Kobido, Massage, Head Spa, Hair Play, Formation en ligne</title>
     <!-- Google Fonts : Cormorant Garamond + Raleway -->
     <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -137,7 +137,7 @@
     </div><!-- /phone-wrapper -->
     <!-- Lien Instagram sous le téléphone -->
     <div style="text-align:center; margin-top:36px;">
-        <a href="https://www.instagram.com/headspalyon_byf" target="_blank"
+        <a href="https://www.instagram.com/head_spa_lyon" rel="noopener" target="_blank"
            style="display:inline-flex; align-items:center; gap:10px;
                   font-family:'Raleway',sans-serif; font-size:11px; font-weight:400;
                   letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.65);
@@ -162,10 +162,16 @@
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot" aria-label="Voir la localisation"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
     </div>
-    <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
+    <p class="footer-copy">Copyright &copy; 2026 Head Spa Lyon By F.</p>
+     <a class="footer-lien"
+       href="https://wa.me/33761525227?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20services%20de%20cr%C3%A9ation%20de%20site%20web."
+       target="_blank"
+       rel="noopener"
+       aria-label="Nous contacter sur WhatsApp">
+        Site réalisé par <span class="underline">CodeWithMeriem</span></a>
 </footer>
 <!-- ========== WHATSAPP FLOAT ========== -->
-<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20prestations."
    class="whatsapp-float"
    target="_blank"
    aria-label="Contact WhatsApp">

@@ -1,19 +1,14 @@
 <?php
-//---------PDO = classe PHP pour se connecter à plusieurs types de BDD
-//---------dsn = Data Source Name = les infos de connexion
-//---------mysql = type de BDD
-//---------host = machine (localhost = ton ordinateur)
-//---------dbname = nom de la base de données
-$dsn = "mysql:host=localhost;dbname=head_spa;";
-$user = "root";
-$pwd = '';
-//---------
-//try = essayer de se connecter
-//catch = si ça marche pas, afficher un message d'erreur
+// ✅ Config BDD pour O2Switch (avec préfixe bufa6866_)
+$dsn = "mysql:host=localhost;dbname=bufa6866_monspalyon;charset=utf8mb4";
+$user = "bufa6866_monspalyon_user";
+$pwd = "P@ss9Km#L2xQ";
+
 try {
     $pdo = new PDO($dsn, $user, $pwd);
-    // echo "Connexion OK !"; // Tu peux décommenter pour tester
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo "Erreur de connexion à la BDD";
+    // En production : jamais d'erreurs détaillées
+    die("Erreur de connexion à la base de données.");
 }
 ?>

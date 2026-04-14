@@ -32,7 +32,7 @@ a { text-decoration: none; color: inherit; }
 .hero {
     height: 70vh;
     min-height: 460px;
-    background: url('images/5de2g1e5e.webp') center / cover no-repeat;
+    background: url('../images/5de2g1e5e.webp') center / cover no-repeat;
     background-position : 70% 40%;
     position: relative;
     display: flex;
@@ -138,7 +138,9 @@ a { text-decoration: none; color: inherit; }
     max-width: 820px;
     margin: 0 auto;
     text-align: center;
+    margin-top: -80px;
 }
+
 
 .intro h2 {
     font-family: var(--font-display);
@@ -170,6 +172,7 @@ a { text-decoration: none; color: inherit; }
     grid-template-columns: 1fr 1fr;
     gap: 70px;
     align-items: center;
+    margin-top:-80px;
 }
 
 /* Version fond alterné */
@@ -212,13 +215,14 @@ a { text-decoration: none; color: inherit; }
 .section-text p:last-child { margin-bottom: 0; }
 
 .section-image img {
-    width: 100%;
+    width: 100%;          /* s'adapte au conteneur */
+    height: auto;         /* garde le ratio naturel */
+    max-height: 500px;    /* limite la hauteur sans étirer */
     border-radius: 14px;
-    object-fit: cover;
-    aspect-ratio: 4/3;
     display: block;
     box-shadow: 0 12px 40px rgba(0,0,0,0.1);
     transition: transform 0.5s ease;
+    object-fit: cover;    /* recadre légèrement si nécessaire */
 }
 
 .section-image img:hover { transform: scale(1.02); }
@@ -374,6 +378,14 @@ footer {
     letter-spacing: 0.08em;
     color: rgba(85,85,85,0.5);
 }
+.footer-lien {font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.5);}
+
+    .underline {
+  text-decoration: underline;
+}
 
 /* ==================== WHATSAPP FLOAT ==================== */
 
@@ -480,6 +492,9 @@ footer {
 
 @media (max-width: 768px) {
     .hero-content { margin-left: 32px; margin-right: 32px; }
+    .hero {
+        background-position: 60% 20%;
+    }
 
     .intro { padding: 70px 24px 50px; }
 
@@ -506,6 +521,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .hero { height: 65vh; }
+    .hero { height: 65vh; 
+        background-position: 50% 20%;
+    }
     .hero-content { margin-left: 20px; margin-right: 20px; }
 }

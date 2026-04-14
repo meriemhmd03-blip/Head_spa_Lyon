@@ -2,11 +2,12 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Massage signature Head Spa à Villeurbanne (Lyon) | Soin exclusif | Head Spa Lyon By F.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Massage signature Head Spa à Villeurbanne (Lyon) | Soin exclusif | Head Spa Lyon By F.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp">
+    <link rel="icon" type="image/webp" href="images/6z9f45s3fdf.webp" width="721" height="719">
+    <link rel="stylesheet" href="css/signature.css">
 </head>
 <body>
 <!-- ========== NAVIGATION ========== -->
@@ -38,14 +39,14 @@
         <p>Chaque séance est entièrement adaptée à votre corps, votre état émotionnel et vos besoins du jour. Le Massage Signature est avant tout une promesse : celle d'un soin dont vous ressortirez transformée.</p>
     </div>
     <div class="section-image">
-        <img loading="lazy" src="images/pexels-jonathanborba-19641826.webp" alt="Technique du Massage Signature à Lyon">
+        <img loading="lazy" src="images/pexels-jonathanborba-19641826.webp" alt="Technique du Massage Signature à Lyon" width="3277" height="4916">
     </div>
 </section>
 <!-- ========== RÉSULTATS ========== -->
 <div class="section-duo-alt fade">
     <div class="duo-inner">
         <div class="section-image">
-            <img loading="lazy" src="images/istockphoto-2166589316-1024x1024.webp" alt="Résultats du Massage Signature à Lyon">
+            <img loading="lazy" src="images/istockphoto-2166589316-1024x1024.webp" alt="Résultats du Massage Signature à Lyon" width="1024" height="683">
         </div>
         <div class="section-text">
             <span class="section-label">Les résultats</span>
@@ -107,15 +108,21 @@
     <div class="footer-info">
         <p><i class="fa-solid fa-location-dot" aria-label="Voir la localisation"></i>34 place des Maisons Neuves, 69100 Villeurbanne</p>
     </div>
-    <p class="footer-copy">&copy; 2026 Head Spa Lyon By F. — Tous droits réservés.</p>
+    <p class="footer-copy">Copyright &copy; 2026 Head Spa Lyon By F.</p>
+    <a class="footer-lien"
+       href="https://wa.me/33761525227?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20services%20de%20cr%C3%A9ation%20de%20site%20web."
+       target="_blank"
+       rel="noopener"
+       aria-label="Nous contacter sur WhatsApp">
+        Site réalisé par <span class="underline">CodeWithMeriem</span></a>
 </footer>
 <!-- ========== WHATSAPP FLOAT ========== -->
-<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaite%20avoir%20des%20informations"
+<a href="https://wa.me/33772293748?text=Bonjour%20je%20souhaiterais%20en%20savoir%20plus%20sur%20vos%20prestations."
    class="whatsapp-float"
    target="_blank"
    rel="noopener"
    aria-label="Contacter sur WhatsApp">
-    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp">
+    <img loading="lazy" src="images/10_29_00.webp" alt="Contacter sur WhatsApp" width="1024" height="1024">
     <span class="whatsapp-text">
         Écrivez-nous sur WhatsApp
     </span>
