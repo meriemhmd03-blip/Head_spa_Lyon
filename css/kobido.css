@@ -163,6 +163,17 @@ a { text-decoration: none; color: inherit; }
     margin-bottom: 18px;
 }
 
+p a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 500;
+}
+
+/* hover uniquement pour les liens dans les paragraphes */
+p a:hover {
+    color: var(--primary-dark);
+}
 /* ==================== SECTIONS DUO (texte + image) ==================== */
 .section-duo {
     padding: 70px 60px;
@@ -496,7 +507,10 @@ footer {
         background-position: 60% 20%;
     }
 
-    .intro { padding: 70px 24px 50px; }
+    .intro { padding: 70px 24px 50px; 
+     margin-top: 0;
+        padding-top: 50px;}
+
 
     .section-duo {
         grid-template-columns: 1fr;
